@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self-Media Compliance Review"
+  short_description: "面向多平台自媒体视频、封面、文案和带货内容的违规风险审核"
+  default_prompt: "Use $self-media-compliance-review to audit this self-media video, cover, subtitles, links, and publish copy before delivery."
