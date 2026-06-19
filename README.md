@@ -24,7 +24,7 @@
 - 🚦 **风险分级** — 输出 `Pass` / `Low` / `Medium` / `High` / `Blocker`
 - 🔎 **证据定位** — 要求标注视频时间点、字幕行、封面文案、商品链接或待核验证据
 - 🛠 **修改建议** — 给出消音、打码、删改、补资质、补授权、改写话术、移除链接等具体动作
-- 📚 **可扩展规则库** — 新平台只需要新增一个 `references/<platform>.md`
+- 📚 **可扩展规则库** — 后续可继续让 AI 补充更多平台的官方规则
 
 ## ✅ 适合哪些场景
 
@@ -69,7 +69,7 @@ https://github.com/JuneYaooo/self-media-compliance-review
 请把这个仓库安装成当前 agent 可用的 Skill。安装完成后告诉我如何调用 self-media-compliance-review。
 ```
 
-安装完成后，重启或刷新你的 agent session。
+安装完成后，让 AI 告诉你是否需要重启或刷新当前 agent session。
 
 ## 🛠 怎么用
 
@@ -118,47 +118,12 @@ https://github.com/JuneYaooo/self-media-compliance-review
 - 商品链接价格和赠品是否一致
 ```
 
-## 🧪 让 AI 帮你校验
-
-把下面这段话发给 AI：
-
-```text
-请检查 self-media-compliance-review 这个仓库是否能正常作为 Skill 使用：确认 SKILL.md 元数据、平台参考文件、Platform References 路由、docs/sources.md 来源记录，以及是否有 TODO 或 placeholder 残留。
-```
-
-建议让 AI 检查：
-
-- skill frontmatter 是否合法
-- 平台参考文件是否齐全
-- `SKILL.md` 是否挂载平台规则
-- `docs/sources.md` 是否记录来源
-- 是否残留 TODO / placeholder
-
-## 🧩 项目结构
-
-```text
-skills/self-media-compliance-review/
-  SKILL.md
-  agents/openai.yaml
-  references/
-    wechat-channels.md
-    douyin.md
-    bilibili.md
-    xiaohongshu.md
-
-docs/
-  sources.md
-
-scripts/
-  validate.sh
-```
-
 ## ➕ 添加新平台
 
-把下面这段话发给 AI：
+如果你想补充新平台，把下面这段话发给 AI：
 
 ```text
-请给 self-media-compliance-review 增加一个新的平台规则参考。平台是【平台名】。请优先查找官方规则、协议、创作者中心或帮助中心来源；新增 references/<platform>.md；在 SKILL.md 的 Platform References 中挂载；在 docs/sources.md 记录来源；最后检查这个 skill 是否仍然有效。
+请给 self-media-compliance-review 增加【平台名】的违规风险审核规则。请优先查找官方规则、协议、创作者中心或帮助中心来源，并把它整理进这个 skill，让以后审核内容时能按这个平台的规则判断。
 ```
 
 ## ⚠️ 免责声明
