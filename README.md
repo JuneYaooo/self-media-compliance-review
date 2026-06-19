@@ -8,6 +8,8 @@
 
 它不是“敏感词表”，而是一套面向发布前质检的审核流程：会检查画面、声音、文字、封面、评论引导、带货信息、资质、授权、引流和平台特有红线，并给出可执行的修改建议。
 
+也欢迎大家在 [Issues](https://github.com/JuneYaooo/self-media-compliance-review/issues) 里提供各平台规则资料、审核经验、踩坑案例和整改思路。后续会定期整理进这个 skill。
+
 [![GitHub stars](https://img.shields.io/github/stars/JuneYaooo/self-media-compliance-review?style=flat)](https://github.com/JuneYaooo/self-media-compliance-review/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-black.svg)](./skills/self-media-compliance-review/SKILL.md)
@@ -125,6 +127,14 @@ https://github.com/JuneYaooo/self-media-compliance-review
 ```text
 请给 self-media-compliance-review 增加【平台名】的违规风险审核规则。请优先查找官方规则、协议、创作者中心或帮助中心来源，并把它整理进这个 skill，让以后审核内容时能按这个平台的规则判断。
 ```
+
+也可以直接在 [Issues](https://github.com/JuneYaooo/self-media-compliance-review/issues) 里提交资料或经验。适合提供的信息包括：平台官方规则链接、实际违规提示截图、申诉经验、容易误判的内容类型、有效的整改方式。
+
+希望大家都能发布顺利。
+
+## 🙏 致谢
+
+- [LINUX DO](https://linux.do/) — 中文开发者社区，感谢社区里关于 AI agent、Skills、自媒体工作流和内容生产实践的讨论。
 
 ## ⚠️ 免责声明
 
