@@ -50,29 +50,26 @@
 
 ## 🚀 安装
 
-### 方式一：让 AI 自己装（推荐）
-
-把下面这段 prompt 丢给你的 AI 助手：
+把下面这段话发给你的 AI 助手，让它自动完成安装：
 
 ```text
 帮我安装 self-media-compliance-review：
 https://github.com/JuneYaooo/self-media-compliance-review
 ```
 
-让 agent clone 仓库，并把 `skills/self-media-compliance-review/` 同步到当前运行环境的 skills 目录。
+如果你使用的是 Codex，可以这样说：
 
-### 方式二：手动安装
-
-```bash
-git clone git@github.com:JuneYaooo/self-media-compliance-review.git
-cd self-media-compliance-review
-
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-rsync -a --delete skills/self-media-compliance-review/ \
-  "${CODEX_HOME:-$HOME/.codex}/skills/self-media-compliance-review/"
+```text
+请把这个 GitHub 仓库里的 self-media-compliance-review 安装到我当前 Codex 环境的 skills 目录，并确认安装后能被调用。
 ```
 
-安装后重启或刷新你的 agent session。
+如果你使用的是 Claude Code、OpenClaw、Hermes 或其他支持 Skills 的 agent，可以这样说：
+
+```text
+请把这个仓库安装成当前 agent 可用的 Skill。安装完成后告诉我如何调用 self-media-compliance-review。
+```
+
+安装完成后，重启或刷新你的 agent session。
 
 ## 🛠 怎么用
 
@@ -121,13 +118,15 @@ rsync -a --delete skills/self-media-compliance-review/ \
 - 商品链接价格和赠品是否一致
 ```
 
-## 🧪 校验
+## 🧪 让 AI 帮你校验
 
-```bash
-./scripts/validate.sh
+把下面这段话发给 AI：
+
+```text
+请检查 self-media-compliance-review 这个仓库是否能正常作为 Skill 使用：确认 SKILL.md 元数据、平台参考文件、Platform References 路由、docs/sources.md 来源记录，以及是否有 TODO 或 placeholder 残留。
 ```
 
-校验内容包括：
+建议让 AI 检查：
 
 - skill frontmatter 是否合法
 - 平台参考文件是否齐全
@@ -156,10 +155,11 @@ scripts/
 
 ## ➕ 添加新平台
 
-1. 新增 `skills/self-media-compliance-review/references/<platform>.md`
-2. 在 `skills/self-media-compliance-review/SKILL.md` 的 Platform References 中挂载
-3. 在 `docs/sources.md` 记录官方来源链接和抓取限制
-4. 运行 `./scripts/validate.sh`
+把下面这段话发给 AI：
+
+```text
+请给 self-media-compliance-review 增加一个新的平台规则参考。平台是【平台名】。请优先查找官方规则、协议、创作者中心或帮助中心来源；新增 references/<platform>.md；在 SKILL.md 的 Platform References 中挂载；在 docs/sources.md 记录来源；最后检查这个 skill 是否仍然有效。
+```
 
 ## ⚠️ 免责声明
 
