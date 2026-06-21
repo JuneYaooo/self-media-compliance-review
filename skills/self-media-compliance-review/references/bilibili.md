@@ -14,7 +14,7 @@ Primary sources:
 
 Source note: bilibili社区公约 is JavaScript-rendered. Static JS extraction confirms detailed rule categories including account behavior, violation handling, illegal/prohibited content, minors, dangerous behavior, misinformation, marketing, covers/titles, and interaction rules.
 
-Recent source note: for 2025-2026 TikHub creator discussions about 小黑屋, 限流, advertising diversion, appeal confusion, and Xiaohongshu search/comment samples about B站视频锁定 or account bans, read `references/recent-cases-2025-2026.md` and `references/cases/bilibili.md`. Treat those discussions as practical signals, not official rules.
+Recent source note: for 2025-2026 Xiaohongshu creator discussions about 小黑屋, 限流, advertising diversion, appeal confusion, B站视频锁定, or account bans, read `references/recent-cases-2025-2026.md` and `references/cases/bilibili.md`. Treat those discussions as practical signals, not official rules.
 
 ## Severity Hints
 

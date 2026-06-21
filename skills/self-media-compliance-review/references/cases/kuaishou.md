@@ -6,7 +6,7 @@ Source audit date: 2026-06-20.
 
 Primary window: 2025-06-20 through 2026-06-20. Older samples are marked context-only.
 
-Evidence standard: cite these as `案例库 TikHub讨论样本 2026-06-20 快手 <keyword>`. Creator discussion is not an official rule source.
+Evidence standard: cite these as `案例库 小红书讨论样本 2026-06-20 快手 <keyword>`. Creator discussion is not an official rule source.
 
 ## Scenario Playbooks
 
@@ -83,9 +83,104 @@ Do not do:
 - Do not switch to homophones, screenshots, emojis, or code words for contact/resource channels.
 - Do not buy unban services or submit mass copied scripts.
 
+### 情况: 直播带货、小店商品或服务承诺被处罚
+
+Likely causes to check:
+
+- Live script, cover, title, product card, comments, or客服话术 uses absolute price/effect promises, fake scarcity, fake official endorsement, or unverifiable comparison.
+- Product qualification, brand authorization, price, gift, delivery time, refund rule, or after-sales promise does not match the public claim.
+- Health, finance, education, recruitment, local service, game trading, or virtual goods content lacks qualification or platform-supported transaction path.
+
+First checks:
+
+- Collect live notice, replay, product cards, price/activity screenshots, store qualification,客服脚本, comment replies, and transaction path.
+- Compare every public promise with the商品详情 and actual售后能力.
+
+What to do:
+
+- Remove guaranteed claims and align口播, comments,商品卡,店铺详情, and客服话术.
+- Add qualification and authorization proof where required.
+- Stop selling high-risk services through private contact or unsupported payment paths.
+
+Appeal approach:
+
+- Attach corrected live/product screenshots, qualification, authorization, and link-consistency proof.
+- Do not appeal only with "主播口误"; identify the exact risky wording and correction.
+
+### 情况: 资料、课程、影视资源或网盘渠道引流
+
+Likely causes to check:
+
+- Comments or profile mention where to watch/read/download,网盘,群聊,公众号,第三方平台, or paid resource packages.
+- The creator uses tutorial,影视解说,短剧,小说,游戏素材, or课程 preview to move users to private-domain purchase.
+- Repeated comment replies look like spam or diversion.
+
+First checks:
+
+- Review profile, pinned comments, private messages, live background, captions, OCR, and all resource-related replies.
+- Verify whether the resource is authorized and whether the transaction path is compliant.
+
+What to do:
+
+- Remove resource-channel directions, contact variants, and unauthorized download guidance.
+- Replace with lawful source attribution or platform-supported purchase/viewing path if available.
+- Delete repeated copy-paste replies and tighten comment moderation.
+
+Appeal approach:
+
+- Submit screenshots showing resource-channel removal and, if applicable, official source or rights proof.
+- Do not switch to abbreviations, emojis, screenshots, or "看主页" workarounds.
+
+### 情况: 影视短剧、音乐、游戏或直播切片被判搬运/侵权
+
+Likely causes to check:
+
+- Video contains copyrighted film/TV/short-drama/music/game/live-stream footage, platform watermarks, reposted captions, or creator素材 without authorization.
+- The edit only changes speed, crop, voiceover, subtitles, or order without meaningful commentary.
+- The same template is repeatedly posted across accounts.
+
+First checks:
+
+- Collect source list, authorization, original files, edit project, commentary script, publish timeline, and platform notice.
+- Assess whether the work provides clear critique, education, explanation, or original value.
+
+What to do:
+
+- Replace unauthorized material or reduce it to necessary quoted portions with substantial commentary where defensible.
+- Remove watermarked or copied素材 and keep original project files for appeal.
+- Avoid reposting the same punished clip from another account.
+
+Appeal approach:
+
+- Attach authorization, project timeline, and explanation of original contribution.
+- If no proof exists, remove the disputed素材 before appeal.
+
+### 情况: 低俗封面、家庭矛盾、卖惨或冲突直播被限制
+
+Likely causes to check:
+
+- Cover/opening uses body focus, revealing clothing, family conflict, abuse, poverty/misery bait, minors, or dramatic crying/argument scenes as traffic bait.
+- The live room or comments escalate insults, harassment, personal attacks, privacy exposure, or emotional coercion.
+- Product or service sale is embedded in a staged tragic persona.
+
+First checks:
+
+- Review cover, title, first 60 seconds, live background, comments, product cards, and whether the story/source is verifiable.
+- Collect consent/authorization for people shown and any public-interest source.
+
+What to do:
+
+- Replace cover/title, remove sensational frames, moderate hostile comments, and disclose commercial context.
+- Do not use vulnerable people, minors, or family conflict as sales bait.
+
+Appeal approach:
+
+- Submit corrected cover/title/replay segment and comment cleanup evidence.
+- For minor/privacy/violence exposure, treat as `High` or `Blocker` until fixed.
+
 ## Permanent Ban, Stolen Account, Live Violation Records, and Comment Bans
 
-TikHub Xiaohongshu discussion sample, keyword `快手 违规 封号 申诉 怎么办`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `快手 违规 封号 申诉 怎么办`, sample date 2026-06-20:
 
 - `6824c019000000001101f55e`, "快手永久禁封求解", shown with about 10 comments, published 2025-05-15; context-only.
 - `681a28cc000000002100e229`, "违规快手禁言申诉话术常见违规申诉话术大全", shown with about 13 comments, published 2025-05-06; context-only.
@@ -110,6 +205,6 @@ Review implication:
 
 Traceable sources:
 
-- TikHub Xiaohongshu search, keyword `快手 违规 封号 申诉 怎么办`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/741ec968-4741-4e3c-91b8-203bed41e154?sign=5c59a4d55cc89f141404d8075e5873d087b2668737215956e6e37bdb9ce70c0d
-- TikHub Xiaohongshu comments, note id `6a36a234000000001c024ab6`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/275908ce-ea03-44c0-973a-2c7e2b4e845e?sign=2537267f51dd8f51261512e274963767dc5f1ae7c09e31e58a1dba7497f573da
-- TikHub Xiaohongshu comments, note id `681a28cc000000002100e229`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/601c4ec8-5268-4543-8e8f-425666407aaa?sign=c8ea8c5f6fc7dd7a8500e21f90bb6039530c05dd2710a80506cdd948551ae1b9
+- Xiaohongshu search sample, keyword `快手 违规 封号 申诉 怎么办`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `6a36a234000000001c024ab6`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `681a28cc000000002100e229`, sample date 2026-06-20.

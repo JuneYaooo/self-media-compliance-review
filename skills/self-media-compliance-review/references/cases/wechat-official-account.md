@@ -6,7 +6,7 @@ Source audit date: 2026-06-20.
 
 Primary window: 2025-06-20 through 2026-06-20.
 
-Evidence standard: cite these as `案例库 TikHub讨论样本 2026-06-20 微信公众号 <keyword>`. Always pair this file with official rules in `../wechat-official-account.md`; TikHub discussion is not an official rule source.
+Evidence standard: cite these as `案例库 小红书讨论样本 2026-06-20 微信公众号 <keyword>`. Always pair this file with official rules in `../wechat-official-account.md`; Xiaohongshu discussion is not an official rule source.
 
 ## Scenario Playbooks
 
@@ -91,9 +91,105 @@ Appeal approach:
 - Provide rights/license/source proof and explain why the complained content is lawful and platform-compliant.
 - If the complaint is false, attach counter-evidence and keep the tone factual.
 
+### 情况: 诱导分享、关注、点击或抽奖裂变被处理
+
+Likely causes to check:
+
+- Article, menu, auto-reply, poster, or comment asks users to share, follow, click, vote, invite friends, or scan to unlock benefits.
+- Lottery,福利,资料包,课程,打卡,投票, or group activity is tied to forced sharing/following or fabricated scarcity.
+- The title/cover promises a benefit that the article does not clearly deliver.
+
+First checks:
+
+- Collect article id, title, cover, poster, activity rules, menu/auto-reply screenshots, comment replies, landing page, and prize/benefit fulfillment proof.
+- Check whether users can receive the benefit without coerced share/follow/click behavior.
+
+What to do:
+
+- Remove forced sharing/following/clicking and fake benefit claims.
+- Publish clear activity rules, eligibility, deadline, prize quantity, delivery method, and privacy handling.
+- Keep the article's main value visible without forcing users into external steps.
+
+Appeal approach:
+
+- Attach corrected article/activity screenshots and explain the activity now no longer requires prohibited interaction.
+- Do not appeal with generic apology templates or "同行都这样做".
+
+### 情况: 外链、小程序、客服消息或自动回复形成高风险私域交易
+
+Likely causes to check:
+
+- Menu, article link, mini-program card, customer-service message, template message, or auto-reply sends users to unverified sales pages, private chat, payment QR, download站, or suspected phishing/fraud pages.
+- The account sells courses, consulting, medical/finance/legal/local services, or virtual goods without qualification or compliant transaction path.
+- Customer-service scripts overpromise outcomes or request sensitive user information.
+
+First checks:
+
+- Capture all menus, auto-replies, template messages, mini-program cards, external links, QR codes,客服话术, and payment/landing pages.
+- Verify subject identity, certification, service qualification, privacy notice, refund rules, and user consent.
+
+What to do:
+
+- Remove unsafe external links, payment QR codes, and contact funnels.
+- Replace with official, qualified, and transparent transaction or service paths.
+- Stop collecting sensitive personal information unless there is a clear lawful purpose and consent record.
+
+Appeal approach:
+
+- Submit before/after link screenshots, qualification, subject proof, privacy/consent proof, and corrected customer-service script.
+- If the link destination was compromised, include security cleanup evidence.
+
+### 情况: 热点、社会事件、AI内容或谣言类文章被屏蔽
+
+Likely causes to check:
+
+- Article uses `网传`, `内部消息`, `爆料`, `震惊`, old event, AI-generated images/audio, or anonymous screenshots as factual current news.
+- Title/cover exaggerates casualty, crime, policy, celebrity, medical, finance, or public-safety claims.
+- Article lacks authoritative source, time, location, person, causal chain, or AI/synthetic label.
+
+First checks:
+
+- Collect source links, official notices, media reports, publication time, edit history, AI generation records, and original screenshots.
+- Compare title/cover against the body; identify whether the headline overstates the evidence.
+
+What to do:
+
+- Add authoritative source and time context; remove unverifiable claims and sensational framing.
+- Clearly label AI/synthetic material where it may mislead.
+- Avoid republishing old events as current news.
+
+Appeal approach:
+
+- Attach authoritative sources, corrected title/cover/body screenshots, and AI label evidence if relevant.
+- Do not appeal by saying "只是转发"; explain source verification and corrections.
+
+### 情况: 医疗、财经、法律、教育、招聘或本地服务资质不足
+
+Likely causes to check:
+
+- Account profile, article, menu,客服, or paid content provides regulated advice or sells a service without visible主体资质.
+- Claims include guaranteed treatment, investment return, exam passing, job placement, visa/school admission, debt relief, lawsuit result, or other outcome promises.
+- User comments/messages ask for personalized advice and the account replies with prescriptive guidance.
+
+First checks:
+
+- Verify account subject, certification, professional qualification, business license, service scope, paid-content terms, and user-consent records.
+- Collect examples of personalized advice, price/contract/refund terms, and product/service links.
+
+What to do:
+
+- Remove personalized regulated advice and guaranteed outcome claims.
+- Add qualification and scope proof, or convert content to general education with clear source and limitations.
+- Align article, menu,客服, paid content, and link copy.
+
+Appeal approach:
+
+- Attach qualification, corrected wording, service scope, and proof that personalized high-risk advice has been removed.
+- Do not use `仅供参考` to keep regulated claims that still require proof.
+
 ## Ban, Safety Risk, and Appeal Materials
 
-TikHub Xiaohongshu discussion sample, keyword `微信公众号 封号 申诉 怎么办`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `微信公众号 封号 申诉 怎么办`, sample date 2026-06-20:
 
 - `690c5e1000000000040147ea`, "公众号 申诉解封 成功啦", shown with about 62 comments, published 2025-11-06.
 - `69c234d7000000002301696f`, description about a public account unblocked after 15 days, shown with about 52 comments, published `03-24`.
@@ -118,5 +214,5 @@ Review implication:
 
 Traceable sources:
 
-- TikHub Xiaohongshu search, keyword `微信公众号 封号 申诉 怎么办`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/a4f3e267-59eb-430d-bd9c-922947e8d994?sign=721d03815af433d1502c0bed0428392cbe089fffcb14d55290177c287d833b75
-- TikHub Xiaohongshu comments, note id `690c5e1000000000040147ea`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/928e6212-28d5-4cda-91e7-a8bd1d03dd07?sign=335319e064f16c250d1c65e49a8a9a0baf5602446b75d4e6f2951a15dde3356d
+- Xiaohongshu search sample, keyword `微信公众号 封号 申诉 怎么办`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `690c5e1000000000040147ea`, sample date 2026-06-20.

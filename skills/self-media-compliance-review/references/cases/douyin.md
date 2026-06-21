@@ -6,7 +6,7 @@ Source audit date: 2026-06-20.
 
 Primary window: 2025-06-20 through 2026-06-20. Older samples are marked context-only.
 
-Evidence standard: cite these as `案例库 TikHub讨论样本 2026-06-20 抖音 <keyword>` or `案例库 媒体转述 <date> 抖音 <topic>`. Creator discussion is not an official rule source.
+Evidence standard: cite these as `案例库 小红书讨论样本 2026-06-20 抖音 <keyword>` or `案例库 媒体转述 <date> 抖音 <topic>`. Creator discussion is not an official rule source.
 
 ## Scenario Playbooks
 
@@ -75,6 +75,103 @@ Appeal approach:
 - Attach corrected cover/title and explain public-interest or educational purpose.
 - For serious minor sexualization/privacy/self-harm, treat as `Blocker` rather than appeal-first.
 
+### 情况: 商品、课程、本地生活或直播带货被判虚假宣传
+
+Likely causes to check:
+
+- Title,口播,字幕,直播间话术,评论或商品卡使用 `保证`, `唯一`, `全网最低`, `必瘦`, `包过`, `稳赚`, `官方内部`, or unverifiable before/after claims.
+- Product price, gift, inventory, delivery promise, service scope, course result, or local-store terms differ between video, live room, comment, and product link.
+- Health, beauty, education, finance, recruitment, local services, or legal consulting lacks qualification proof or uses user outcome as guaranteed effect.
+- Staff or agency comments simulate buyer Q&A, success cases, or urgency.
+
+First checks:
+
+- Capture video/live id, violation notice, product-link screenshots, price/gift/activity rules,直播回放, pinned comments, customer-service scripts, and qualification files.
+- Compare published copy with product detail page and real transaction path.
+- Identify whether the claim is a factual product attribute, personal experience, or promised outcome.
+
+What to do:
+
+- Remove absolute and guaranteed language; keep claims limited to verifiable product facts or personal experience with context.
+- Align video, live-room口播, comment reply, product card, price, gift, deadline, refund terms, and service scope.
+- Add commercial disclosure and qualification evidence where the category requires it.
+
+Appeal approach:
+
+- Attach corrected copy, product qualification, price/activity proof, and screenshots showing the link now matches the public claims.
+- If a claim was misunderstood, explain the exact sentence and evidence; do not appeal with "主播无意违规" alone.
+
+### 情况: 私信拿资料、加群、联系方式或站外成交导致限流/处罚
+
+Likely causes to check:
+
+- Video, title, cover, profile, comments, stickers,直播背景, or private-message auto-reply exposes phone, WeChat, QR, homophone contact,群号,网盘, or "私信领取资料".
+- Free资料/报价/名单/课程/诊断 is used as bait for off-platform transaction or high-risk consulting.
+- Comments repeatedly ask `怎么联系`, `发我`, `进群`, `链接`, and the creator replies with contact variants.
+
+First checks:
+
+- Review all public surfaces: profile, bio, comments, pinned comments, private-message prompt, product link, live-room background, and口播 OCR.
+- Collect before/after screenshots proving contact removal.
+
+What to do:
+
+- Remove direct and disguised contact methods from video, comment, profile, and auto-reply.
+- Move legitimate transactions,课程,咨询,售后 to platform-supported paths where available.
+- For regulated services, stop personalized advice until qualification and compliant transaction path are verified.
+
+Appeal approach:
+
+- Provide screenshots of contact removal and corrected CTA; describe the compliant path users can now use.
+- Do not replace phone/WeChat with homophones, emojis, cropped QR, or "懂的都懂".
+
+### 情况: AI合成、搬运剪辑或非原创被限制推荐/下架
+
+Likely causes to check:
+
+- Reposted film/TV/综艺/游戏/直播切片, platform watermarks, copied subtitles, or low-effort二创.
+- AI face/voice, synthetic disaster/accident/public-affairs/celebrity material, or fake product proof lacks clear label.
+- Same account matrix publishes highly similar scripts, covers, and剪辑结构.
+
+First checks:
+
+- Collect source files, edit project, authorization, publish sequence, AI generation records, and corrected labels.
+- Compare whether commentary, analysis, teaching, or review value is substantial enough, or the work is mostly reposting.
+
+What to do:
+
+- Replace unauthorized素材 or add substantial original commentary where legally and platform-wise defensible.
+- Add clear AI/synthetic labels when realistic content may mislead users.
+- Do not repost the same punished clip from another account before fixing the root issue.
+
+Appeal approach:
+
+- Attach source/authorization/project files and a concise explanation of original contribution or AI labeling.
+- If no authorization exists, remove the material rather than relying on attribution.
+
+### 情况: 投流异常、互粉互赞、评论刷量或数据造假
+
+Likely causes to check:
+
+- Creator, agency, fans, or staff organize mutual likes, comment templates, watch-time tasks, fake orders, or paid traffic.
+- Comments contain repeated slogans, identical Q&A, "互关互赞", "停留几秒", or fake buyer feedback.
+- Promotion data and organic data are mixed when explaining a traffic drop.
+
+First checks:
+
+- Collect promotion records,后台数据, comment logs, team operation instructions, agency delivery reports, and platform notice.
+- Separate paid-promotion performance from compliance status and organic recommendation.
+
+What to do:
+
+- Stop fake engagement, remove scripted comments, and document team instructions forbidding刷量/互评.
+- Preserve promotion receipts and explain abnormal periods with evidence.
+
+Appeal approach:
+
+- Submit platform notice, cleaned comment screenshots, promotion records, and team-control evidence.
+- Do not claim "被恶意举报" unless there is concrete report or abuse evidence.
+
 ## Minor-Safety Governance
 
 Media-reported platform signal: 2026-06 reports bundled Xiaohongshu and Douyin minor-protection announcements and referenced permanent bans for serious minor-related violations.
@@ -90,7 +187,7 @@ Traceable source:
 
 ## Reports, Account-Ban Services, and Live-Room Bans
 
-TikHub Xiaohongshu discussion sample, keyword `抖音 违规 封号 申诉 怎么办`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `抖音 违规 封号 申诉 怎么办`, sample date 2026-06-20:
 
 - `682f2db70000000023002760`, description about reporting Douyin violations or account bans, shown with about 45 comments, published 2025-05-22; context-only by publish date, but newer comments were present.
 - `6a251477000000001c02435e`, "抖音被扣2万，你还不知道怎么办吗", shown with about 5 comments, published `06-07`.
@@ -112,5 +209,5 @@ Review implication:
 
 Traceable sources:
 
-- TikHub Xiaohongshu search, keyword `抖音 违规 封号 申诉 怎么办`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/20a2bdaa-554e-44ff-b69f-9638f5bdba46?sign=195e9ed6a8a2f5eb2231aa4a9b65a4788a94817a4249666b61291dadc85226c9
-- TikHub Xiaohongshu comments, note id `682f2db70000000023002760`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/b3079c9a-f5b1-4ab6-91cb-5b328fb26f39?sign=5763c6a2f55d045e422a8eaff62c2e6dc37b26430020f118c51edfe4fe625e32
+- Xiaohongshu search sample, keyword `抖音 违规 封号 申诉 怎么办`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `682f2db70000000023002760`, sample date 2026-06-20.

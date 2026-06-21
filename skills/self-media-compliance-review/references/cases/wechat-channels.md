@@ -6,7 +6,7 @@ Source audit date: 2026-06-20.
 
 Primary window: 2025-06-20 through 2026-06-20.
 
-Evidence standard: cite these as `案例库 TikHub讨论样本 2026-06-20 视频号 <keyword>`. Creator discussion is not an official rule source.
+Evidence standard: cite these as `案例库 小红书讨论样本 2026-06-20 视频号 <keyword>`. Creator discussion is not an official rule source.
 
 ## Scenario Playbooks
 
@@ -100,9 +100,81 @@ Appeal approach:
 - Provide activity plan, organic traffic evidence, team instructions showing no brushing if true, and correction evidence.
 - If brushing happened, state cleanup and prevention steps; do not blame unknown users without evidence.
 
+### 情况: 播放量骤降、减少推荐、疑似限流但没有明确通知
+
+Likely causes to check:
+
+- The creator infers violation from low views only; there may be no platform notice.
+- Cover/title/opening uses private-domain bait, exaggerated marketing, lowbrow conflict, copied素材, or repeated template.
+- Account recently deleted/reposted frequently, changed niche, switched operators/devices, opened a small account after punishment, or reused the same video across accounts.
+
+First checks:
+
+- Capture video id, publish time, traffic graph, platform notice, search/recommend visibility, edit history, and recent account operation records.
+- Review cover, first 3 seconds, caption, comments, product link, profile, and private-message prompts.
+
+What to do:
+
+- If no notice exists, mark `待核验: 推荐状态/账号状态` rather than calling it a confirmed violation.
+- Fix visible risks first: contact/diversion, exaggerated claim, copied素材, repeated hashtags, and comment mobilization.
+- Avoid mass deletion/reposting or switching to small accounts before the root cause is identified.
+
+Appeal approach:
+
+- Appeal only with a specific notice or function restriction; otherwise prepare evidence and observe after correction.
+- If appealing, include video id, publish time, disputed frame/copy, correction screenshots, source proof, and account-operation timeline.
+
+### 情况: 视频号小店、课程、咨询或本地服务被判虚假营销
+
+Likely causes to check:
+
+- 口播, caption, comments, live script, or product card promises guaranteed effects, income, traffic, scores, exam results, health outcomes, or "官方/内部" resources.
+- Price, gift, service scope, refund terms, delivery deadline, or qualification differs across video, live room, comments, and product link.
+- Education, tutoring, health, finance, legal, recruitment, or paid consulting lacks visible qualification or oversteps account identity.
+
+First checks:
+
+- Collect product card, order path, price/activity screenshots, qualification,服务合同, live replay, comment replies, and platform notice.
+- Compare public claims with actual purchasable item or service.
+
+What to do:
+
+- Remove absolute promises and unverifiable numbers; rewrite as factual scope and conditions.
+- Align product link,口播, comments, and客服话术.
+- Add qualification proof or remove regulated advice/marketing.
+
+Appeal approach:
+
+- Attach corrected public copy, link consistency proof, qualification, and refund/service terms.
+- Do not argue "只是经验分享" when comments or links create a sales funnel.
+
+### 情况: 未成年人、擦边、家庭冲突或猎奇封面被处理
+
+Likely causes to check:
+
+- Cover/opening highlights minors, revealing clothing, dating implication, bullying, self-harm, violent family conflict, or sensational school/family scenes.
+- Comments contain sexualized, bullying, doxxing, meetup, or "求后续" manipulation around minors or vulnerable people.
+- The video claims public-interest commentary but uses the sensitive frame as traffic bait.
+
+First checks:
+
+- Review cover, first 5 seconds, subtitles, comments, tags, and whether identities/locations are exposed.
+- Collect source authorization, guardian/portrait consent where relevant, and corrected cover/title.
+
+What to do:
+
+- Remove risky frames from cover/opening; blur faces, school, location, names, and comments.
+- Delete harmful comments and avoid sensational titles.
+- Keep educational or public-interest context visible if the topic is necessary.
+
+Appeal approach:
+
+- Appeal only after replacing cover/title and cleaning comments.
+- For sexualized minor, self-harm, violence, or privacy exposure, treat as `Blocker` rather than appeal-first.
+
 ## Xiaohongshu Discussion: Ban, Limiting, AI Labels, Originality
 
-TikHub Xiaohongshu discussion sample, keyword `视频号 封号 申诉 怎么办`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `视频号 封号 申诉 怎么办`, sample date 2026-06-20:
 
 - `6936a26d000000001f00a5d6`, "视频号失而复得太开心了（方法看第二张图）", shown with about 181 comments, published `01-05`.
 - `6900b84300000000040043ab`, "蝴蝶号昨晚被封，第二天轻松解除", shown with about 17 comments, published 2025-10-28.
@@ -125,12 +197,12 @@ Review implication:
 
 Traceable sources:
 
-- TikHub Xiaohongshu search, keyword `视频号 封号 申诉 怎么办`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/c33d2587-57f6-4067-86c3-9b37f4f2f009?sign=aeb6d84567cf2cbd4c7ebe84fe8c539c71099fe4b81a3c6506286134ebb4d055
-- TikHub Xiaohongshu comments, note id `69d9efab000000022101a5c2`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/4ab62af7-bb12-4041-bf6f-4b7317496344?sign=9ab63d6c6a35a3671cad1b12b95cdff3043d6f4693a8841358e839c760ca46ed
+- Xiaohongshu search sample, keyword `视频号 封号 申诉 怎么办`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `69d9efab000000022101a5c2`, sample date 2026-06-20.
 
-## TikHub WeChat Channels Search: Violations, Live Bans, Ad Data
+## Xiaohongshu Discussion: Violations, Live Bans, Ad Data
 
-TikHub WeChat Channels latest search, keyword `视频号 违规 限流 封号 虚假营销`, request 2026-06-20, returned recent creator videos about video-account violations, reduced recommendations, live bans, account bans, and ad-revenue/interaction-data violations.
+Xiaohongshu discussion search, keyword `视频号 违规 限流 封号 虚假营销`, sample date 2026-06-20, returned creator notes about video-account violations, reduced recommendations, live bans, account bans, and ad-revenue/interaction-data violations.
 
 Observed discussion signals:
 
@@ -145,4 +217,4 @@ Review implication:
 
 Traceable source:
 
-- TikHub WeChat Channels latest search, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/67665090-33fa-4814-94e7-4b08d57a178d?sign=0bd4246eacbe5a6ab120635c0d35db14b6ee2e8cb556aacd69ae394438b678a8
+- Xiaohongshu search sample, keyword `视频号 违规 限流 封号 虚假营销`, sample date 2026-06-20.

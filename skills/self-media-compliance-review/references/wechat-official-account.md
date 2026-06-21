@@ -11,7 +11,7 @@ Primary official sources:
 - 微信公众平台规则中心: https://mp.weixin.qq.com/webpoc/ruleCenter?type=oa
 - 微信公众号和服务号推荐运营规范: https://mp.weixin.qq.com/cgi-bin/announce?action=getannouncement&key=11697600328G0Tbo&version=1&lang=zh_CN&platform=2
 
-Source note: the official operation-norm page embeds rule text in `cgiData.content`. The service agreement embeds content in the announcement page. Use the official pages as the rule basis; use TikHub creator discussions in `cases/wechat-official-account.md` only as practical appeal/complaint samples.
+Source note: the official operation-norm page embeds rule text in `cgiData.content`. The service agreement embeds content in the announcement page. Use the official pages as the rule basis; use Xiaohongshu creator discussions in `cases/wechat-official-account.md` only as practical appeal/complaint samples.
 
 ## Severity Hints
 

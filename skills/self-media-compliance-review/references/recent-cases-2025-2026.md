@@ -13,15 +13,15 @@ Use sources in this order:
 1. Official platform rules, agreements, help-center pages, and official governance-account posts.
 2. Government regulator notices and official campaign summaries.
 3. Reputable media reports that quote official platform announcements or governance events.
-4. TikHub platform-search results and comments as creator discussion samples.
+4. Xiaohongshu search results and comments as creator discussion samples.
 
-Do not treat TikHub search results, creator notes, or comments as binding platform rules. Use them to identify practical symptoms, disputed edge cases, and remediation questions to ask.
+Do not treat Xiaohongshu creator notes or comments as binding platform rules. Use them to identify practical symptoms, disputed edge cases, and remediation questions to ask.
 
 When citing a case in a review, label it as:
 
 - `案例库 官方/监管 <date> <topic>` for official or regulator material.
 - `案例库 媒体转述 <date> <platform> <topic>` for reputable media quoting platform material.
-- `案例库 TikHub讨论样本 <date> <platform> <keyword>` for platform-search results or comments.
+- `案例库 小红书讨论样本 <date> <platform> <keyword>` for Xiaohongshu search results or comments.
 
 ## Platform Case Files
 

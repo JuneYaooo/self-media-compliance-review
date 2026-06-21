@@ -76,7 +76,7 @@ Do not overload this `SKILL.md` with platform rule catalogs; keep detailed platf
 
 4. **Apply platform references**
    - Cite platform category ids or article names where available.
-   - When using recent examples, separate `官方/监管`, `媒体转述`, and `TikHub讨论样本`; do not treat creator comments as binding rules.
+   - When using recent examples, separate `官方/监管`, `媒体转述`, and `小红书讨论样本`; do not treat creator comments as binding rules.
    - Prefer the most specific matching category. If multiple categories apply, list all but mark the primary risk.
    - When the platform rule depends on account history or qualifications that are not available, mark `待核验`.
 
@@ -104,7 +104,7 @@ Every finding should include at least one evidence pointer:
 - Cover/title/caption/comment/product-link text.
 - Screenshot/frame description.
 - Missing proof: authorization, qualification, source, product price, activity scope, link consistency.
-- For platform discussion evidence: keyword searched, note/video id, author type if visible, publish date, TikHub cache URL, and whether it is official or creator-side discussion.
+- For platform discussion evidence: keyword searched, note id or visible account, comment evidence if used, publish date, sample date, and whether it is official-account material or creator-side discussion.
 
 Do not report a violation solely because a topic is sensitive. Explain what visible/audible element creates the risk and which rule it maps to.
 
@@ -156,7 +156,7 @@ When reviewing a final video package:
 - Treating subtitle rewrite as enough while risky audio remains audible.
 - Reviewing only the script and missing cover/opening-frame risks.
 - Assuming public material is safe because it came from another platform.
-- Treating TikHub creator notes or comments as official platform rules instead of discussion samples.
+- Treating 小红书 creator notes or comments as official platform rules instead of discussion samples.
 - Using "仅供参考" to keep medical, financial, legal, or guaranteed-effect claims that still require qualification or proof.
 - Leaving product prices, gifts, quantities, or activity deadlines inconsistent with the linked item.
 - Hiding uncertain source provenance instead of marking it `待核验`.

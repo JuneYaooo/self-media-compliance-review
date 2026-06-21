@@ -14,7 +14,7 @@ Primary sources:
 
 Source note: the brand-account PDF contains directly extractable rule text and is the strongest detailed source found for content/marketing risk. Community Covenant 2.0 sources confirm the current platform values: 真诚分享, 友好互动, 有序经营; oppose manufactured opposition, fake personas, cyberbullying, minor harm, false marketing, and malicious competition.
 
-Recent source note: for 2025-2026 enforcement examples, false-marketing governance data, minor-safety announcements, TikHub creator discussions about 限流/不收录/申诉, and Xiaohongshu search samples about other platforms' 封号/申诉 problems, read `references/recent-cases-2025-2026.md` and `references/cases/xiaohongshu.md`.
+Recent source note: for 2025-2026 enforcement examples, false-marketing governance data, minor-safety announcements, Xiaohongshu creator discussions about 限流/不收录/申诉, and Xiaohongshu search samples about other platforms' 封号/申诉 problems, read `references/recent-cases-2025-2026.md` and `references/cases/xiaohongshu.md`.
 
 ## Severity Hints
 

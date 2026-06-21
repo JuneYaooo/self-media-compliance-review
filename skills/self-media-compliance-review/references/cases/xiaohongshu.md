@@ -6,7 +6,7 @@ Source audit date: 2026-06-20.
 
 Primary window: 2025-06-20 through 2026-06-20. Older samples are marked context-only.
 
-Evidence standard: cite these as `案例库 TikHub讨论样本 2026-06-20 小红书 <keyword>` or `案例库 媒体转述 <date> 小红书 <topic>`. Do not treat creator notes or comments as official rules.
+Evidence standard: cite these as `案例库 小红书讨论样本 2026-06-20 小红书 <keyword>` or `案例库 媒体转述 <date> 小红书 <topic>`. Do not treat creator notes or comments as official rules.
 
 ## Scenario Playbooks
 
@@ -115,6 +115,103 @@ Appeal approach:
 - Appeal only after removing risky frame/comment/tag and attaching authorization or safety context.
 - For serious sexualized, self-harm, violence, or privacy cases, treat as `Blocker` rather than appeal-first.
 
+### 情况: 商业种草、蒲公英合作或带货笔记被判营销异常
+
+Likely causes to check:
+
+- 笔记以普通体验、避雷、测评、清单、攻略或日常分享呈现，但存在品牌合作、赠品、返佣、团购、本地服务转化或评论区导购。
+- Title, cover, first image, caption, comments, and product link create a purchase funnel without clear disclosure.
+- `亲测有效`, `真实素人`, `闺蜜推荐`, `全网最低`, `闭眼入`, `不买后悔`, or before/after visuals are used without verifiable proof.
+- Comments are scripted: `求链接`, `已买`, `有效`, `店名发我`, `私信你了`, or staff-like Q&A.
+
+First checks:
+
+- Collect cooperation contract,蒲公英/广告 disclosure, product qualification, link screenshots, price/gift/activity period, creator brief, and comment moderation record.
+- Compare note content, comments, private messages, and product page for consistency.
+
+What to do:
+
+- Disclose commercial relationship where required and remove fake "normal user" positioning.
+- Delete planted comments, align product facts, and remove guaranteed outcomes or fake scarcity.
+- Keep proof of original shooting, usage experience, product source, and approval records.
+
+Appeal approach:
+
+- Submit disclosure/cooperation proof, corrected note screenshots, comment cleanup evidence, and product fact proof.
+- Do not argue only that "种草不是广告"; explain the actual relationship and corrections.
+
+### 情况: 医美、健康、减肥、心理或功效内容被限制
+
+Likely causes to check:
+
+- Content gives diagnosis, treatment, medication, surgery, medical beauty, weight-loss,心理咨询, or health-product advice without visible qualification.
+- Claims imply certain effects: `根治`, `无副作用`, `必瘦`, `逆龄`, `修复`, `改善焦虑`, `医生推荐`, or before/after comparison.
+- User comments ask for personalized advice and the creator replies with prescriptions, dosage, clinic, course, or contact path.
+
+First checks:
+
+- Collect qualification, product/clinic/service license, claim proof, before/after authorization, user-case consent, and comment replies.
+- Identify whether the note is general education, personal diary, product marketing, clinic/service conversion, or personalized consultation.
+
+What to do:
+
+- Remove diagnosis/treatment/prescription and guaranteed-effect wording.
+- Convert to general information with source and risk context, or provide qualification proof for regulated marketing.
+- Delete or redirect personalized medical/psychological advice comments to qualified channels.
+
+Appeal approach:
+
+- Attach qualification and corrected copy if the topic can be published; otherwise remove regulated advice and commercial CTA before appeal.
+- Do not rely on `仅供参考` to keep medical or guaranteed-effect claims.
+
+### 情况: 素材搬运、盗图、肖像隐私或伪原创被投诉
+
+Likely causes to check:
+
+- Images/videos are copied from other platforms, contain watermarks, use celebrity/ordinary-person portraits, repost chat records, maps, order pages, school/company names, or private photos.
+- The note uses public-event screenshots without source or presents old material as current.
+- The creator only crops, filters, changes speed, or rewrites captions while keeping the core material.
+
+First checks:
+
+- Collect original source files, shooting metadata, license/authorization, model release, source links, and publish timeline.
+- Inspect first image/cover and comments for privacy clues: face, address, plate, school, hospital, order number, phone, or chat identity.
+
+What to do:
+
+- Replace unauthorized or privacy-risk material; blur faces, names, addresses, phone numbers, order info, and school/company identifiers.
+- Add authoritative source for public-event material and avoid implying first-hand witness if not true.
+- Do not assume attribution cures unauthorized use.
+
+Appeal approach:
+
+- Submit original files, authorization, and correction screenshots.
+- If no proof exists, remove the disputed material and appeal only after replacement.
+
+### 情况: 评论区、私信或群聊引流被处理
+
+Likely causes to check:
+
+- Caption, comments, pinned comments, image OCR, profile, or private-message reply contains WeChat, phone, email, QR,群号,网盘,店铺暗号, or homophone contact.
+- The note promises "资料包/清单/报价/入群/诊断/课程" but the actual service is off-platform or unqualified.
+- Comment section mobilizes users to `蹲`, `dd`, `互看`, `停留`, `求发`, or uses copied recovery/appeal language.
+
+First checks:
+
+- Review note text, all images/OCR, comments, pinned comments, profile, private-message prompt, and link destinations.
+- Capture before/after screenshots after removing contact or engagement-manipulation wording.
+
+What to do:
+
+- Remove direct and disguised contact methods; keep public answers inside the platform where possible.
+- Delete engagement-manipulation comments and fake Q&A.
+- If the service is regulated, add qualification and use a compliant transaction or consultation path.
+
+Appeal approach:
+
+- Submit screenshots showing contact removal, comment cleanup, and corrected CTA.
+- Do not replace removed contact with code words, cropped QR, or "看主页".
+
 ## Community Covenant 2.0
 
 Reported signal: Xiaohongshu updated Community Covenant 2.0 around 2026-01, emphasizing 真诚分享, 友好互动, and 有序经营. Public reporting described focus areas including fake personas, cyberbullying, harm to minors, false marketing, malicious competition, and manufactured opposition.
@@ -152,7 +249,7 @@ Traceable sources:
 
 ## Minor-Safety Governance
 
-Official-account signal found through TikHub: verified governance account `薯管家` published "关于涉未成年不良内容阶段性处置结果公示" on 2026-04-24.
+Official-account signal found through Xiaohongshu search: verified governance account `薯管家` published "关于涉未成年不良内容阶段性处置结果公示" on 2026-04-24.
 
 Media-reported June signal: on 2026-06-01, `@小红书薯管家` reportedly disclosed that in the prior month Xiaohongshu cleaned about 109,000 minor-related violating notes and handled about 13,000 violating accounts. Categories included minor bad works, improper marketing using minors, minor dating inducement, revealing clothing involving minors, and suicide/self-harm involving minors.
 
@@ -164,19 +261,19 @@ Review implication:
 
 Traceable sources:
 
-- TikHub Xiaohongshu search, keyword `小红书薯管家 涉未成年人不良内容 阶段性处置结果公示`, note id `69eb6161000000022300c579`, published `04-24`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/9137b654-1e2c-4f6b-ad88-7cd10a632350?sign=aa2b198701d0679af26635b398541b12b107f14796863cde08336e31ea637210
+- Xiaohongshu search sample, keyword `小红书薯管家 涉未成年人不良内容 阶段性处置结果公示`, note id `69eb6161000000022300c579`, published `04-24`, sample date 2026-06-20.
 - 北京日报客户端转述 `@小红书薯管家`, 2026-04-24: https://xinwen.bjd.com.cn/content/s69eb7573e4b0cd719ea1147e.html
 - 椰网转述 `@小红书薯管家`, 2026-06-01: https://newscdn.hndnews.com/hb/html/mobile/748349.html
 - 新浪财经转载综合报道, 2026-06-06: https://finance.sina.com.cn/wm/2026-06-06/doc-inianuve1626360.shtml
 
 ## Account Limiting, Low Views, Non-Indexing, and Appeals
 
-TikHub discussion sample, keyword `小红书 账号限流 怎么办`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `小红书 账号限流 怎么办`, sample date 2026-06-20:
 
 - Representative note `6a0bff580000000008001e86`, "小红书号被'暗限流' | 3步申诉亲测恢复", published `05-22`, shown with about 3,030 comments.
 - Representative note `693bcde2000000001e030b05`, "笔记明明审核通过了，小眼睛为什么是0？", published 2025-12-13, shown with about 3,761 comments.
 
-TikHub discussion sample, keyword `小红书 违规 限流 申诉 怎么办`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `小红书 违规 限流 申诉 怎么办`, sample date 2026-06-20:
 
 - Representative note `6a0bff580000000208009bbc`, "小红书号被'暗限流' | 3步申诉亲测恢复", shown with about 3,090 comments, published `05-22`.
 - Representative note `6a2b673b0000000235017208`, "流量恢复不是等来的，是努力自救，救回来的", shown with about 221 comments.
@@ -198,15 +295,15 @@ Review implication:
 
 Traceable sources:
 
-- TikHub Xiaohongshu search, keyword `小红书 账号限流 怎么办`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/d76e9744-dddb-4695-a358-8be21b6752aa?sign=1fdd263da12d9147d849421e4665830ff5075c41535b9596f824e5f84f893bd6
-- TikHub Xiaohongshu comments, note id `6a0bff580000000008001e86`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/a41d0862-40f4-4211-ac85-cd3cf1a96f6c?sign=8f3cf4998418dfd0917b1466886b0433ffd7b8cd887ff072aef6359b812bb9e9
-- TikHub Xiaohongshu comments, note id `693bcde2000000001e030b05`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/6435a907-b2b6-457d-8331-c03952d1c207?sign=9d5c5a9e232746e2e6074082f612bddb14ead8c9515d704fb98f3ffcbd320583
-- TikHub Xiaohongshu search, keyword `小红书 违规 限流 申诉 怎么办`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/da063793-52e4-432d-91f4-b0856e39101d?sign=de99bdc73ae2396b4b7b99a0c293101cf4d7ae166b33645c4db1256e5a126978
-- TikHub Xiaohongshu comments, note id `6a0bff580000000208009bbc`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/f8024408-feee-436f-a354-155dc547f09b?sign=10972e3cafd477c83e6f484fb4752195ac3aa4d2f818802306a0152911aa0617
+- Xiaohongshu search sample, keyword `小红书 账号限流 怎么办`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `6a0bff580000000008001e86`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `693bcde2000000001e030b05`, sample date 2026-06-20.
+- Xiaohongshu search sample, keyword `小红书 违规 限流 申诉 怎么办`, sample date 2026-06-20.
+- Xiaohongshu comment sample, note id `6a0bff580000000208009bbc`, sample date 2026-06-20.
 
 ## Note-Violation Appeal Discussions
 
-TikHub discussion sample, keyword `小红书 笔记违规 申诉`, request 2026-06-20:
+Xiaohongshu discussion sample, keyword `小红书 笔记违规 申诉`, sample date 2026-06-20:
 
 - Search results included notes about appeal failure, human support, note not viewable after review, and traffic recovery.
 - One high-interaction sample described a note becoming unavailable around a traffic spike without a station notice, then the creator considering appeal.
@@ -219,4 +316,4 @@ Review implication:
 
 Traceable source:
 
-- TikHub Xiaohongshu search, keyword `小红书 笔记违规 申诉`, request 2026-06-20, cache: https://cache.tikhub.io/api/v1/cache/public/906c9ff2-6c46-439b-8afe-14de096f36fa?sign=dc62f28552d261ce41d003a8e9a146010f1448defca1eb8c0764c096c9ced694
+- Xiaohongshu search sample, keyword `小红书 笔记违规 申诉`, sample date 2026-06-20.
