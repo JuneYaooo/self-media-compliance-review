@@ -1,6 +1,6 @@
 ---
 name: self-media-compliance-review
-description: "Use when auditing self-media videos, scripts, covers, subtitles, voiceover, product links, account copy, comments, or publishing packages for platform violation risk; especially before final delivery or publishing after any video production or clipping task. Supports platform references such as WeChat Channels and can be extended for Douyin, Bilibili, Xiaohongshu, TikTok, and other platforms."
+description: "Use when auditing self-media videos, scripts, covers, subtitles, voiceover, product links, account copy, comments, articles, or publishing packages for platform violation risk; especially before final delivery or publishing after video production or clipping. Supports WeChat Channels, WeChat Official Accounts, Douyin, Kuaishou, Bilibili, Xiaohongshu, TikTok, and other platforms."
 ---
 
 # Self-Media Compliance Review
@@ -15,7 +15,7 @@ Default output language is Chinese unless the user asks otherwise.
 
 Collect or infer these inputs before judging:
 
-- Target platform(s): 视频号, 抖音, B站, 小红书, TikTok, etc.
+- Target platform(s): 视频号, 微信公众号, 订阅号, 服务号, 抖音, 快手, B站, 小红书, TikTok, etc.
 - Public-facing material: final video path, script, subtitles, cover text, title, description, tags, comments, product link copy, account/profile copy.
 - Context: account identity, topic vertical, target audience, source ownership/authorization, product/service being promoted, qualifications for regulated topics.
 - Evidence access: timecodes, frame notes, transcript lines, copy files, screenshots, manifests, or links.
@@ -27,9 +27,21 @@ If a required input is missing, continue with the available evidence and mark th
 Always run the universal audit areas below. Then load platform-specific references when relevant:
 
 - 微信视频号 / 视频号 / WeChat Channels: read `references/wechat-channels.md`.
+- 微信公众号 / 微信公众平台 / 订阅号 / 服务号 / WeChat Official Accounts: read `references/wechat-official-account.md`.
 - 抖音 / Douyin: read `references/douyin.md`.
+- 快手 / Kuaishou: read `references/kuaishou.md`.
 - B站 / 哔哩哔哩 / Bilibili: read `references/bilibili.md`.
 - 小红书 / Xiaohongshu / RED: read `references/xiaohongshu.md`.
+- Recent enforcement cases, creator discussions, or account-status/限流 questions: read `references/recent-cases-2025-2026.md`.
+
+When using recent cases, load the index first, then the matching platform case file under `references/cases/`:
+
+- 小红书: `references/cases/xiaohongshu.md`.
+- 微信公众号: `references/cases/wechat-official-account.md`.
+- 视频号: `references/cases/wechat-channels.md`.
+- 抖音: `references/cases/douyin.md`.
+- 快手: `references/cases/kuaishou.md`.
+- B站: `references/cases/bilibili.md`.
 
 For new platforms, add one reference file under `references/<platform>.md` with:
 
@@ -64,6 +76,7 @@ Do not overload this `SKILL.md` with platform rule catalogs; keep detailed platf
 
 4. **Apply platform references**
    - Cite platform category ids or article names where available.
+   - When using recent examples, separate `官方/监管`, `媒体转述`, and `TikHub讨论样本`; do not treat creator comments as binding rules.
    - Prefer the most specific matching category. If multiple categories apply, list all but mark the primary risk.
    - When the platform rule depends on account history or qualifications that are not available, mark `待核验`.
 
@@ -91,6 +104,7 @@ Every finding should include at least one evidence pointer:
 - Cover/title/caption/comment/product-link text.
 - Screenshot/frame description.
 - Missing proof: authorization, qualification, source, product price, activity scope, link consistency.
+- For platform discussion evidence: keyword searched, note/video id, author type if visible, publish date, TikHub cache URL, and whether it is official or creator-side discussion.
 
 Do not report a violation solely because a topic is sensitive. Explain what visible/audible element creates the risk and which rule it maps to.
 
@@ -142,6 +156,7 @@ When reviewing a final video package:
 - Treating subtitle rewrite as enough while risky audio remains audible.
 - Reviewing only the script and missing cover/opening-frame risks.
 - Assuming public material is safe because it came from another platform.
+- Treating TikHub creator notes or comments as official platform rules instead of discussion samples.
 - Using "仅供参考" to keep medical, financial, legal, or guaranteed-effect claims that still require qualification or proof.
 - Leaving product prices, gifts, quantities, or activity deadlines inconsistent with the linked item.
 - Hiding uncertain source provenance instead of marking it `待核验`.

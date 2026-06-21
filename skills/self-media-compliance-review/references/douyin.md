@@ -13,6 +13,8 @@ Primary sources:
 
 Source note: the official rule center and trust center are JavaScript-rendered pages. The user service agreement provides stable, directly readable baseline obligations; platform-specific rule-center material should be rechecked in browser if a content decision is high-stakes.
 
+Recent source note: for 2025-2026 AI, minors, malicious-marketing, creator-discussion examples, and Xiaohongshu search/comment samples about 抖音封号/举报/禁播 services, read `references/recent-cases-2025-2026.md` and `references/cases/douyin.md`.
+
 ## Severity Hints
 
 - `Blocker`: illegal/prohibited content under information-content rules; porn, gambling, violent crime, terrorism/extremism, national-security risk, defamation/privacy/IP infringement, unauthorized impersonation, obvious unmarked AI/deepfake deception, dangerous challenge likely to cause injury/death, fraud/illegal ads, serious platform-security abuse.
@@ -138,4 +140,4 @@ Use platform labels such as:
 - `抖音 用户服务协议 4.6 扰乱平台经营秩序`
 - `抖音 用户服务协议 10.2 内容权利/原创授权`
 - `抖音 用户服务协议 13 未成年人`
-
+- `抖音 案例库2025-2026 AI/未成年人/恶意营销`

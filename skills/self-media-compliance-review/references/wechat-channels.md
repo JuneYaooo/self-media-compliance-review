@@ -4,6 +4,8 @@ Use this reference when the target platform is 微信视频号 / 视频号 / WeC
 
 Source basis: user-provided "视频号常见违规内容概览" material, current as provided in this task. For high-stakes publishing, verify the latest official 微信视频号运营规范 before release.
 
+Recent source note: for 2025-2026 TikHub creator discussions about 限流, 封号, 违规营销, live bans, ad-data manipulation, and Xiaohongshu search/comment samples about 视频号申诉, read `references/recent-cases-2025-2026.md` and `references/cases/wechat-channels.md`. Treat creator discussions as risk signals, not official rules.
+
 ## Severity Hints
 
 - `Blocker`: porn, gambling, fraud, controlled goods, severe violence/gore/death, sexual assault/minor harm, illegal finance, clear off-platform risky diversion, unqualified medical/financial promotion, obvious unauthorized搬运, direct privacy leak, fake authority selling, major misinformation likely to cause harm.

@@ -14,6 +14,8 @@ Primary sources:
 
 Source note: the brand-account PDF contains directly extractable rule text and is the strongest detailed source found for content/marketing risk. Community Covenant 2.0 sources confirm the current platform values: 真诚分享, 友好互动, 有序经营; oppose manufactured opposition, fake personas, cyberbullying, minor harm, false marketing, and malicious competition.
 
+Recent source note: for 2025-2026 enforcement examples, false-marketing governance data, minor-safety announcements, TikHub creator discussions about 限流/不收录/申诉, and Xiaohongshu search samples about other platforms' 封号/申诉 problems, read `references/recent-cases-2025-2026.md` and `references/cases/xiaohongshu.md`.
+
 ## Severity Hints
 
 - `Blocker`: illegal/prohibited content, porn, gambling, violent terror, minor harm, phishing/malware, suicide/self-harm instruction, prohibited industries, clear infringement/privacy leak, off-platform contact/QR/direct transaction risk, cheating/fake engagement, unqualified medical/finance/game content, severe false marketing.
@@ -153,6 +155,18 @@ Flag content that undermines:
 
 Pay special attention to manufactured opposition: gender opposition, regional discrimination, occupation bias, poverty/wealth conflict, hobby/consumer-class contempt, "stand in line and fight" framing, anxiety-selling through group labels.
 
+## 12. Case-Informed Xiaohongshu Checks
+
+Use `references/cases/xiaohongshu.md` when reviewing:
+
+- Suspected 伪素人, planted review, or comment-matrix marketing.
+- Notes involving minors, especially dating inducement, revealing clothing, self-harm, violence, privacy, or commercial exploitation.
+- Account limiting, note non-indexing, 小眼睛为0, appeal, or "违规后怎么办" questions.
+- Cross-platform creator discussions found through Xiaohongshu search, such as 微信公众号封号, 视频号限流, 抖音举报/封号服务, 快手被盗申诉, or B站小黑屋; treat them as discussion samples, not official rules.
+- Repeated comment scripts such as 互看, 停留几秒, 点赞回复, copied appeal wording, or coordinated "求链接/已买/有效" comments.
+
+For 限流/不收录, do not infer a violation from low traffic alone. Mark `待核验` and ask for platform notice screenshots, note-status screenshots, edit history, promotion/薯条 status, commercial disclosure, source authorization, and product/qualification proof.
+
 ## Report Labels
 
 Use labels such as:
@@ -166,3 +180,4 @@ Use labels such as:
 - `小红书 品牌号社区运营规范 04 作弊/诱导/骚扰`
 - `小红书 品牌号社区运营规范 05 商业推广笔记`
 - `小红书 社区公约2.0 真诚分享/友好互动/有序经营`
+- `小红书 案例库2025-2026 虚假营销/未成年人/限流讨论`

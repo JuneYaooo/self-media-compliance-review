@@ -13,7 +13,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/JuneYaooo/self-media-compliance-review?style=flat)](https://github.com/JuneYaooo/self-media-compliance-review/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-black.svg)](./skills/self-media-compliance-review/SKILL.md)
-[![Platforms](https://img.shields.io/badge/platforms-视频号%20%7C%20抖音%20%7C%20B站%20%7C%20小红书-orange.svg)](#-已覆盖平台)
+[![Platforms](https://img.shields.io/badge/platforms-6%20platforms-orange.svg)](#-已覆盖平台)
 
 </div>
 
@@ -21,11 +21,12 @@
 
 ## ✨ 能做什么
 
-- 🧭 **多平台规则路由** — 根据目标平台自动读取视频号、抖音、B站、小红书的参考规则
+- 🧭 **多平台规则路由** — 根据目标平台自动读取视频号、微信公众号、抖音、快手、B站、小红书的参考规则
 - 🎬 **全发布面审核** — 不只审脚本，也审封面、标题、字幕、口播、画面、BGM、评论、商品链接和账号资料
 - 🚦 **风险分级** — 输出 `Pass` / `Low` / `Medium` / `High` / `Blocker`
 - 🔎 **证据定位** — 要求标注视频时间点、字幕行、封面文案、商品链接或待核验证据
 - 🛠 **修改建议** — 给出消音、打码、删改、补资质、补授权、改写话术、移除链接等具体动作
+- 🧾 **案例化处理手册** — 对限流、封号、申诉、原创争议、评论灰产等场景给出原因排查和申诉材料清单
 - 📚 **可扩展规则库** — 后续可继续让 AI 补充更多平台的官方规则
 
 ## ✅ 适合哪些场景
@@ -41,14 +42,16 @@
 
 ## 📱 已覆盖平台
 
-| 平台 | 规则文件 |
-| --- | --- |
-| 微信视频号 / WeChat Channels | [`wechat-channels.md`](./skills/self-media-compliance-review/references/wechat-channels.md) |
-| 抖音 / Douyin | [`douyin.md`](./skills/self-media-compliance-review/references/douyin.md) |
-| B站 / Bilibili | [`bilibili.md`](./skills/self-media-compliance-review/references/bilibili.md) |
-| 小红书 / Xiaohongshu | [`xiaohongshu.md`](./skills/self-media-compliance-review/references/xiaohongshu.md) |
+| 平台 | 规则文件 | 近一年案例/申诉场景 |
+| --- | --- | --- |
+| 微信视频号 / WeChat Channels | [`wechat-channels.md`](./skills/self-media-compliance-review/references/wechat-channels.md) | [`cases/wechat-channels.md`](./skills/self-media-compliance-review/references/cases/wechat-channels.md) |
+| 微信公众号 / WeChat Official Accounts | [`wechat-official-account.md`](./skills/self-media-compliance-review/references/wechat-official-account.md) | [`cases/wechat-official-account.md`](./skills/self-media-compliance-review/references/cases/wechat-official-account.md) |
+| 抖音 / Douyin | [`douyin.md`](./skills/self-media-compliance-review/references/douyin.md) | [`cases/douyin.md`](./skills/self-media-compliance-review/references/cases/douyin.md) |
+| 快手 / Kuaishou | [`kuaishou.md`](./skills/self-media-compliance-review/references/kuaishou.md) | [`cases/kuaishou.md`](./skills/self-media-compliance-review/references/cases/kuaishou.md) |
+| B站 / Bilibili | [`bilibili.md`](./skills/self-media-compliance-review/references/bilibili.md) | [`cases/bilibili.md`](./skills/self-media-compliance-review/references/cases/bilibili.md) |
+| 小红书 / Xiaohongshu | [`xiaohongshu.md`](./skills/self-media-compliance-review/references/xiaohongshu.md) | [`cases/xiaohongshu.md`](./skills/self-media-compliance-review/references/cases/xiaohongshu.md) |
 
-规则来源汇总见：[`docs/sources.md`](./docs/sources.md)。
+规则来源汇总见：[`docs/sources.md`](./docs/sources.md)。跨平台案例索引见：[`recent-cases-2025-2026.md`](./skills/self-media-compliance-review/references/recent-cases-2025-2026.md)。
 
 ## 🚀 安装
 
@@ -85,6 +88,12 @@ https://github.com/JuneYaooo/self-media-compliance-review
 
 ```text
 交付前跑一遍 self-media-compliance-review，平台是视频号、B站。
+```
+
+排查账号状态或申诉问题：
+
+```text
+使用 self-media-compliance-review，帮我排查小红书笔记小眼睛为 0 的可能原因，并按案例库给出申诉前要准备的证据。
 ```
 
 建议提供：
@@ -131,6 +140,16 @@ https://github.com/JuneYaooo/self-media-compliance-review
 也可以直接在 [Issues](https://github.com/JuneYaooo/self-media-compliance-review/issues) 里提交资料或经验。适合提供的信息包括：平台官方规则链接、实际违规提示截图、申诉经验、容易误判的内容类型、有效的整改方式。
 
 希望大家都能发布顺利。
+
+## 🔍 维护校验
+
+本仓库提供一个轻量校验脚本：
+
+```bash
+./scripts/validate.sh
+```
+
+如果本机安装了 Codex skill validator，脚本会优先调用；否则会执行仓库内置的基础结构校验，包括 `SKILL.md` frontmatter、平台引用文件、案例文件和来源索引。
 
 ## 🙏 致谢
 
