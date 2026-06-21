@@ -55,26 +55,14 @@
 
 ## 安装
 
-把下面这段话发给你的 AI 助手，让它按当前环境尝试安装：
+把下面这段话发给你的 AI 助手即可：
 
 ```text
 帮我安装 self-media-compliance-review：
 https://github.com/JuneYaooo/self-media-compliance-review
 ```
 
-如果你使用的是 Codex，可以这样说：
-
-```text
-请把这个 GitHub 仓库里的 self-media-compliance-review 安装到我当前 Codex 环境的 skills 目录，并确认安装后能被调用。
-```
-
-如果你使用的是 Claude Code、OpenClaw、Hermes 或其他支持 Skills 的 agent，可以这样说：
-
-```text
-请把这个仓库安装成当前 agent 可用的 Skill。安装完成后告诉我如何调用 self-media-compliance-review。
-```
-
-安装完成后，让 AI 告诉你是否需要重启或刷新当前 agent session。
+安装方式取决于你正在使用的 agent。安装完成后，让它告诉你如何调用，以及是否需要重启或刷新当前 session。
 
 ## 怎么用
 
@@ -131,23 +119,7 @@ https://github.com/JuneYaooo/self-media-compliance-review
 
 ## 添加新平台
 
-如果你想补充新平台，把下面这段话发给 AI：
-
-```text
-请给 self-media-compliance-review 增加【平台名】的违规风险审核规则。请优先查找官方规则、协议、创作者中心或帮助中心来源，并把它整理进这个 skill，让以后审核内容时能按这个平台的规则判断。
-```
-
-也可以直接在 [Issues](https://github.com/JuneYaooo/self-media-compliance-review/issues) 里提交资料或经验。适合提供的信息包括：平台官方规则链接、实际违规提示截图、申诉经验、容易误判的内容类型、有效的整改方式。
-
-## 维护校验
-
-本仓库提供一个轻量校验脚本：
-
-```bash
-./scripts/validate.sh
-```
-
-如果本机安装了 Codex skill validator，脚本会优先调用；否则会执行仓库内置的基础结构校验，包括 `SKILL.md` frontmatter、平台引用文件、案例文件和来源索引。
+欢迎直接提 [Issue](https://github.com/JuneYaooo/self-media-compliance-review/issues) 或 PR。适合提供的信息包括：平台官方规则链接、实际违规提示截图、申诉经验、容易误判的内容类型、有效的整改方式。
 
 ## 致谢
 
