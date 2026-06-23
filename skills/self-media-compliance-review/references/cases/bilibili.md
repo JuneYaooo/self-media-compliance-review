@@ -222,3 +222,64 @@ Review implication:
 Traceable source:
 
 - Xiaohongshu search sample, keyword `B站 小黑屋 处罚 公告 违规账号`, sample date 2026-06-20.
+
+## Curated Native Bilibili Samples (sample date 2026-06-23)
+
+From Bilibili's own search (not the Xiaohongshu proxy above), so more representative for B站. Creator discussion samples that surface 隐形 rules as symptoms, not platform rules. `av` numeric ids are shown for traceability; re-check before relying on them.
+
+### 封禁 / 申诉 / 锁定 videos (publish dates from `ptime`)
+
+- av `113598210842043` 面壁者牢波官方「[B站扫盲计划01]B站账号被封禁了会怎样？」 ▶~196290 弹267, 2024-12-05.
+- av `113268437815129` 我是老大哥08年的老鼠「哔哩哔哩账号封禁中第0天申诉（成功）」 ▶~13414, 2024-10.
+- av `112884927431270` Lucky-101「大型纪录片《B站锁定视频传奇》」 ▶~64668, 2024-08-01.
+- av `113766503028678` 伊万_切斯特_「B站这个直播的违规行为判定无法理解」 ▶~5171, 2025-01-03.
+- av `114351323223997` 欲少安染「bilibili账号注销流程+禁封次数查看教程」 ▶~8398, 2025-04-17.
+- av `116681745635880` 太局太段的煤炭「B站被盗号怎么办？怎么预防最近频发的盗号事件？」 ▶~29729 弹50, 2026-06-02 (recent; account-security, not content-violation).
+
+### 投稿被退回 / 锁定 (originality + resubmission)
+
+- av `341214922` 君は笑ってる「血淋淋的教训，稿件被退回切记不要重复提交！多次提交被锁定了就凉凉」 ▶~20596, 2022-05; context-only by date but the resubmission-lock symptom recurs.
+- av `576777753` 意境文字revolution「揭秘B站从投稿到被违规的流程（下）真实审核流程逻辑分析」 ▶~11476, 2023-10; context-only.
+- av `477705158` 瓜爸养瓜「B站退稿及申诉经验分享」 ▶~13044, 2023; context-only.
+
+Review implication:
+
+- Distinguish three B站 failure modes before advising: 账号封禁/小黑屋, 稿件退回/锁定 (originality/source/review), and 盗号/账号安全. The 2026-06 sample is account-security; do not treat it as a content rule.
+- For 稿件退回, comments warn against repeated resubmission (it can lock the submission); advise fixing source/rights and editing instead of spamming resubmit.
+- Keep official `社区公约` and `小黑屋处罚条例` as the rule basis; these are creator anecdotes.
+
+Traceable sources:
+
+- Bilibili search sample, keywords `B站 违规 申诉 锁定` and `B站 搬运 三连 原创 违规`, sample date 2026-06-23.
+
+## More Native Bilibili Samples (expanded pass, sample date 2026-06-23)
+
+A wider B站 search pass surfaced an official limit-handling feature and high-reach商单/搬运/版权 references. `av` numeric ids shown; convert to BV id to fetch comments. Big-creator/official entries are more authoritative; treat the rest as discussion samples.
+
+### Official / authoritative
+
+- av `814070248` 哔哩哔哩UP主服务中心 等「全新功能上线！遇到"限流"怎么办？」 ▶~4364588. Official UP-service post on the限流-self-check feature. Review use: cite this as the authoritative path for B站限流 questions instead of inferring限流 from low views.
+
+### 商单 / 恰饭 norms (high-reach references)
+
+- av `496528744` 影视飓风「800w粉丝，我们是如何在B站做商单视频的？」 ▶~4914144 — how a top studio discloses/structures商单.
+- av `594548410` 邵林一「我拒绝了天价恰饭广告……」 ▶~1517424; av `115972052621921` 老猫乔諵「上个月b站收入11000元，聊聊如何接广子赚钱」 ▶~1236888. Review use: for B站恰饭/商单, check 商业起飞/广告 disclosure and that the integration is declared.
+
+### 搬运 / 转载 / 版权 (originality + evasion to flag)
+
+- av `113768147191735` 「b站up主必看，如何正确地搬运视频？」 ▶~325460; av `115992739058181` 爆破姬老师「国外视频转载」 ▶~506993; av `116658291088203` 小刘动漫editing「《展示版权》」 ▶~550287. Review use: "如何搬运/国外视频转载" tutorials are an evasion signal — require转载授权 and source; unauthorized reupload is not cured by re-encoding. B站 also requires marking转载 vs 自制 honestly.
+
+Traceable sources:
+
+- Bilibili search sample, expanded keyword set (限流/小黑屋/搬运/版权/盗号/充电/商单/直播/二创), sample date 2026-06-23.
+
+## Xiaohongshu Discussion Samples About B站 (sample date 2026-06-23)
+
+Netizen discussion about B站 mined from Xiaohongshu (creator discussion, not rules).
+
+- note `698339d0000000000a032938` super🍬「998一个月，牢a(B站)能变现多少呢」 ~💬787, and充电/恰饭价格 chatter. Review use: context for B站充电/商单变现 norms; check商业起飞/广告 disclosure when恰饭 is involved.
+- B站 sections were dominated by the cross-platform `复制一遍真有用 / 流量恢复楼` 玄学复读 (e.g. notes `6a15c55f00000000360199e6` ~💬13501, `6a098e15000000003502d42d` ~💬11462). These are XHS-side流量玄学, not B站 rules; see index "流量恢复玄学".
+
+Traceable source:
+
+- Xiaohongshu discussion sample, keywords `B站 限流/小黑屋/锁定/三连/充电`, sample date 2026-06-23.

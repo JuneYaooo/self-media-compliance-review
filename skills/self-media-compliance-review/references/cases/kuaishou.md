@@ -208,3 +208,65 @@ Traceable sources:
 - Xiaohongshu search sample, keyword `快手 违规 封号 申诉 怎么办`, sample date 2026-06-20.
 - Xiaohongshu comment sample, note id `6a36a234000000001c024ab6`, sample date 2026-06-20.
 - Xiaohongshu comment sample, note id `681a28cc000000002100e229`, sample date 2026-06-20.
+
+## Curated Native Kuaishou Samples (sample date 2026-06-23)
+
+From Kuaishou's own comprehensive search and video comments, not the Xiaohongshu proxy used above. Creator/official discussion samples that surface 隐形 rules as symptoms, not platform rules. Re-check before relying on them.
+
+### Official / high-reach 限流 + 封号 videos
+
+- photo `5214042532005379082` 「老是怀疑自己违规被"限流"？这个违规查询入口一定要知道（社区规则、违规红线）」 ~💬75 👍4526, ties to `@快手融媒研修院`. Use: points creators to the in-app 违规查询 entry instead of guessing.
+- photo `5255419322270030060` 官方小助手「账号违规怎么解封？直播间遇到骗子怎么办？评论区留言答疑」 ~💬2647 👍5184. Comment: `玩快手三年就一次80w热门…买过推广没用，不签约工会传媒个人很难玩起来，背后都是套路`(👍36).
+- photo `5189272820655547740` 「账号被限流马上做这三步」 ~💬741 👍1397, ties to `@快手创作者中心`. Comment: `好像不管用`(👍11).
+- photo `5257108258523088680` 「账号被永久封禁还能解开吗？」 ~💬1704 👍2836; photo `5255419479335302595` 「终于解开了 #账号被封禁 #解封 #激活」 ~💬4744 👍5883; photo `5192087553807138186` 「永久封禁还能不能解封」 ~💬3806 👍746. Use as symptom/话术 samples only; many "解封/激活" tags are bait for paid services.
+
+### 带货导致限流 comment signal
+
+- photo `5230931103063271819` 带货/流量主题 ~💬2014 👍5835. Comments: `原来两三千的播放量，昨天开通橱窗挂了一个车之后，流量就个位数了，有人知道怎么解决吗`; `限流了，流量上不去，都是不超35百直播放量`; (from search) `没违规就是没流量好像被暗了`. Signal: creators link橱窗/挂车 to a traffic drop. Review use: do not confirm "带货必限流"; check disclosure, link consistency, and whether a real notice exists, and mark `待核验: 账号/作品状态`.
+
+Review implication:
+
+- Prefer the in-app 违规查询/申诉 entry (official videos above) over inferring限流 from low views.
+- Treat `解封/激活/永久封禁解开` tag clusters as a paid grey-service risk; do not recommend such services.
+- Comments repeatedly note 工会/推广/保证金 funnels; flag pay-to-play and off-platform contact in带货 content.
+
+Traceable sources:
+
+- Kuaishou search sample, keywords `快手 违规 限流 申诉` and `快手 封号 解封 经验`, sample date 2026-06-23.
+- Kuaishou comment sample, video ids `5230931103063271819` and `5214042532005379082`, sample date 2026-06-23.
+
+## More Native Kuaishou Samples (expanded pass, sample date 2026-06-23)
+
+A wider Kuaishou search pass surfaced an official rule-education series and concrete enforcement. The `#小心违规` / `#手规矩课堂` series is platform-run content (rule explainers), so it is authoritative; other entries are creator/discussion samples.
+
+### Official rule-education series (`#小心违规` / `#手规矩课堂`)
+
+- photo `5237967879605606775` 「"违规查询"功能上线啦！」 ~💬45920 👍121709 `#手规矩课堂`. Comments still echo the hidden-rule pain: `没有违规详情呀`, `根本就没有那个违规查询入口啊`, `也不知道哪里违规了`, `依旧乱封`. Review use: point creators to the in-app 违规查询, but expect that even there the "具体违规点" is often unclear — audit the full surface yourself.
+- photo `5221360996728820844` 「第3集｜评论规则：色情低俗及着装暴露内容不可发在评论区」 ~💬31798 👍85443.
+- photo `5203346596519054247` 「第2集｜评论规则：拒绝包含色情低俗交易的内容」 ~💬14165 👍32175.
+- photo `5226427544051349191` 「第5集｜评论功能被封了是怎么回事？」 ~💬16703 👍32223.
+- photo `5203346502919812023` 「第8集｜文明交友，杜绝色情交易！」 ~💬25719 👍75824.
+- photo `5245849305255786788` 「对色情暴露违规内容零容忍！」 ~💬19218 👍59526.
+- photo `5244441874880980794` 「第7集｜造谣别人黑料是要被关播的！」 ~💬15307 👍120136.
+- photo `5197435532385680771` 「账号违规不要慌，教你一招申诉」 (ties `@快手卖货助手`) ~💬16958 👍18738.
+
+Review use: Kuaishou enforces comment-section content hard (色情低俗/着装暴露/交易/造谣). Audit comments, not just the video; treat评论区 marketing/lowbrow/transaction as a封评论/封号 trigger.
+
+### Enforcement + grey-market signals
+
+- photo `5230931025204555775` 「某主播直播中诱导未成年人刷礼物，被网友举报，账号已被永久封禁直播权限」 ~💬16689 👍94654. Review use: 诱导未成年人打赏 → permanent live-ban; treat minor + reward-inducement as `Blocker`.
+- photo `5259923022905662743` 「劝大家退（封号）圈保（账号）平安」 ~💬40781 👍122585 `#恶意举报`. Comments: `举报没用，只有轻度惩罚依然刷屏`, `造谣污蔑账号举报成功有¥`, `为什么有人恶意举报你们也没封号`. Review use: 恶意举报/有偿举报 is an active grey market; if a creator reports being mass-reported, collect report-record/notice evidence and do not engage in counter-brigading.
+
+Traceable sources:
+
+- Kuaishou search sample, expanded keyword set (直播/带货/搬运/三农/卖惨/诱导/评论/短剧), sample date 2026-06-23.
+- Kuaishou comment sample, video ids `5237967879605606775`, `5259923022905662743`, sample date 2026-06-23.
+
+## Xiaohongshu Discussion Sample About 快手 (sample date 2026-06-23)
+
+- note `694a15d4000000000d03c6aa` 中安在线「短视频平台快手出事了！一个多小时里冒出多个低俗色情直播间，举报无用，后所有直播功能被关」 ~💬720. Media-relayed report. Review use: corroborates Kuaishou's hard line on 直播低俗/色情 (see the official `#小心违规` series); for live content, treat lowbrow/sexual risk as `Blocker` and expect blanket function suspension during incidents.
+
+Traceable sources:
+
+- Xiaohongshu discussion sample, keywords `快手 限流/封号/违规/带货/直播`, sample date 2026-06-23.
+- Xiaohongshu comment sample, note id `694a15d4000000000d03c6aa`, sample date 2026-06-23.

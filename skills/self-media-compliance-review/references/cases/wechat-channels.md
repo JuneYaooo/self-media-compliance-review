@@ -218,3 +218,22 @@ Review implication:
 Traceable source:
 
 - Xiaohongshu search sample, keyword `视频号 违规 限流 封号 虚假营销`, sample date 2026-06-20.
+
+## Xiaohongshu Discussion Samples About 视频号 (sample date 2026-06-23)
+
+Netizen discussion posts (and their comments) about 视频号 violations, mined from Xiaohongshu. Treat as creator discussion samples, not platform rules. Cite as `案例库 小红书讨论样本 2026-06-23 视频号 <topic> note <id>`.
+
+### 引流 / 联系方式 被封 (comment evidence is the highlight)
+
+- note `67458a610000000202027543` big大伟「11月开始这些行为视频号不要有」 ~💬233. Comments map the 隐形 line on contact/diversion concretely: `评论区引导人家看主页被封7天`; `主页放了联系方式被封了，提示恶意引导`; `封面有电话会怎样`; `可以用表情包隔断电话吗`; `那让他们私信呢`. Review use: on 视频号, contact/diversion via 主页/评论区/封面/私信 (even disguised with 表情包/谐音) is a common ban trigger; flag all of these.
+- note `67c5c283000000002903115a` 兔无几「视频号违规减少推荐，申诉5分钟通过」 ~💬703. Comments: creators told to post ~10 original真人出镜 videos before appealing; one reports escalating penalties `处罚1天→7天→30天→180天，删了还在处罚`. Review use: "减少推荐" is appealable but recurrence escalates; advise fixing root cause, not just deleting.
+
+### 封号 / 解封 经验
+
+- note `681d8ef0000000002301690b` 豆浆油条「视频号解封亲测有效办法」 ~💬897. Comments: 解封 via emailed appeal; often `维持原判`, but one says a 1.5-year ban was finally lifted after repeated emails. Review use: 视频号 appeals run through email/客服; outcomes are discretionary — do not promise success.
+- note `6838526a0000000221013aeb` 右眼下痣「微信被永久封号怎么办（两次永久封号经验）」 ~💬771. Comments: even 加好友/通过验证 can trigger bans for a flagged account. Review use: 微信账号-level bans cascade to 视频号; separate account-security from content issues.
+
+Traceable sources:
+
+- Xiaohongshu discussion sample, keywords `视频号 限流/违规/封号/原创/带货`, sample date 2026-06-23.
+- Xiaohongshu comment sample, note ids `67458a610000000202027543`, `67c5c283000000002903115a`, `681d8ef0000000002301690b`, sample date 2026-06-23.

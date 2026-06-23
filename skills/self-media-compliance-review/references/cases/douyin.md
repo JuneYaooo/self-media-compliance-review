@@ -211,3 +211,83 @@ Traceable sources:
 
 - Xiaohongshu search sample, keyword `抖音 违规 封号 申诉 怎么办`, sample date 2026-06-20.
 - Xiaohongshu comment sample, note id `682f2db70000000023002760`, sample date 2026-06-20.
+
+## Curated Native Douyin Samples (sample date 2026-06-23)
+
+Unlike the older entries above (which used Xiaohongshu search as a proxy), these come from Douyin's own search and video comments, so they are more representative for Douyin. They are creator discussion samples that surface 隐形 rules as symptoms, not platform rules. Re-check before relying on them.
+
+### 限流 / 申诉 videos and comment signals
+
+- aweme `7626360750836029587` 「视频突然被判违规、限流、仅自己可见…手把手教你一分钟申诉」 ~💬46 👍286. Comments: `我十几万赞的作品就这么没了，还申诉失败了，别人把我的视频盗了都能正常发，没有下架`; `申诉了还是没过`. Signal: takedown + appeal failure + alleged搬运 of the original.
+- aweme `7615973360048132465` 「抖音账号申诉入口」 ~💬12 👍287. Comments: `转发不了被限流，说不符合抖音社区公约，申述时还找不到违规作品，说作品一切正常`; `私信得不到，说违规违规，啥叫违规`. Signal: creators cannot locate the cited violation; "限流" inferred from symptoms, not a notice.
+- aweme `7642979239801858981` 「误判限流7天，教你当天申诉解封」 ~💬46 👍243.
+- aweme `7630086843384676778` 「抖音账号紧急处理指南：异常/限流/处罚」 ~💬15 👍171 (teaches `我的客服→发起申诉` path).
+- aweme `7634019608609447141` 「作品被限流怎么申诉」 ~💬3 👍159.
+- aweme `7650701972337546683` 「账号违规申诉一次过指南」 ~💬2 👍1.
+
+### 带货 / 抖店 / 小黄车 enforcement (concrete penalties)
+
+- aweme `7536479232908086587` 宇姐电商解忧铺「被罚2w，佣金禁止提现1095天，永久关闭小黄车……你也遇到过吗」 (tags `#抖音违规 #抖店违规 #达人违规处理`). Concrete penalty stack: fine + 3-year commission-withdrawal freeze + permanent 小黄车 closure.
+- aweme `7602826549754476136` 依依违规处理「小黄车被封了怎么办：直播时展示了别家的抖音页面，立刻被封并罚款5000」. Signal: showing/【导流到】another shop or off-platform page during a live带货 session triggered封车 + fine.
+
+Review implication:
+
+- For带货/直播 content, treat引导到站外、展示他人店铺/页面、佣金诱导 as high-risk; penalties go beyond限流 to fines, withdrawal freezes, and permanent小黄车 closure.
+- Verify product qualification, link consistency, and that the live script does not point viewers to other shops, off-platform pages, or private contact.
+
+
+- Several comments mix in account-security and refund/charge complaints (`极速版金币`, `橙视频会员退款`); separate content-violation from account/payment issues before advising.
+- Appeal-teaching videos route users to in-app 客服/申诉 entries; flag any that push paid unban services or off-platform contact.
+
+Evidence label example: `案例库 抖音讨论样本 2026-06-23 抖音 限流申诉 aweme 7626360750836029587 comment`.
+
+Traceable sources:
+
+- Douyin search sample, keywords `抖音 违规 限流 申诉`, `抖音 带货 违规 小黄车`, `抖音 直播 违规 处罚`, sample date 2026-06-23.
+- Douyin comment sample, video ids `7626360750836029587` and `7615973360048132465`, sample date 2026-06-23.
+
+## More Native Douyin Samples (expanded pass, sample date 2026-06-23)
+
+A wider/deeper Douyin search pass (limit, 带货/抖店, 直播, 搬运/二创, 影视, AI, 摆拍/蹭热点, 盗号). Creator/media samples surfacing 隐形 rules and concrete penalties, not platform rules. Publish dates not all resolvable from search; verify in-app if exact date matters.
+
+### Official / media enforcement (authoritative)
+
+- aweme `7650122245897448883` 陕视新闻「蹭高考流量、博取眼球，西安警方对两名违法行为人分别行政拘留10日和5日」 ~💬5458 👍17959 `#抖音辟谣`. This is a news/official-penalty case: staged/false 高考 stories for traffic led to administrative detention. Comments confirm the pattern is widespread (`网上一搜全是开锁送准考证`, 👍2704; `行政拘留留案底，以后政审可能终身后悔`; `应该把平台也一起罚，没核实就允许发布`). Review use: treat 摆拍/编造/蹭热点 (especially around exams, accidents, charity, public events) as `High`/`Blocker` — real-world legal liability, not just限流.
+
+### 带货 / 抖店 enforcement (concrete penalties)
+
+- aweme `7536479232908086587` 宇姐电商解忧铺「被罚2w，佣金禁止提现1095天，永久关闭小黄车」 — fine + 3-year withdrawal freeze + permanent小黄车 closure.
+- aweme `7602826549754476136` 依依违规处理「小黄车被封：直播展示了别家的抖音页面，立刻封车并罚5000」 — showing another shop/off-platform page mid-live triggered封车+fine.
+- aweme `7575499539663598004` 小福星~服饰「新号开播，商品分享功能永久封掉，罚款5000元」 ~💬4233 👍7098.
+- aweme `7535027295058316604` 景德镇营业执照代办「抖店卖自制榴莲酥，开店一个月被罚3万还停业」 ~💬600 👍3905. Comment thread is a warning wall about 抖店/代运营 traps (`做抖店一个月赔7万`, 👍71; `被运营商坑罚款`; `交钱开店一分不退`). Review use: for食品/自制品带货, require qualification (食品经营许可等); for "代运营开店" promos, flag fraud/誇大收益 risk.
+- aweme `7630066871174377051` 霏霏「抖店罚款、冻结货款、找不到人工客服」 ~💬2938 👍4507 `#抖店罚款 #冻结资产`.
+
+### 限流 self-service + symptom comments
+
+- aweme `7652310430903945599` 司雨「限流自查：三条杠→设置→账号与安全→抖音安全中心，删除违规作品或设为仅自己可见即可解除限流」 ~💬612 👍3971. Comments are the textbook限流 symptom set (`两个小时0流量`; `我自己能看见，朋友点进去看不到，账号检测正常无违规`; `被限制仅自己可见`). Review use: confirms the self-check path AND that "0播放+检测正常" is common; still mark `待核验: 账号/作品状态` without a notice.
+
+### 搬运 / 二创 / 影视 (originality + evasion to flag)
+
+- aweme `7591047849343006134` 小橙子「二创去重保姆级教学」 ~💬3570 👍59556; aweme `7319062831914077449` 西哥自媒体「影视作品经常违规，3个方法教你解决」 `#影视剪辑 #侵权`; aweme `7158341311307795725` 杨飞改款「影视创作获取免费版权素材」. Review use: "去重/搬运/影视解说免费素材" content is an evasion signal — unauthorized影视 material is not cured by去重/变速/加字幕; flag copyright and label such tutorials as risk, not solutions.
+
+### 解封话术 / 引流 / 盗号
+
+- aweme `7536601421844614400` 关你peace「永久封禁账号按这个操作可以解封」 ~💬3435 👍27879; aweme `7546037306491587875` 东哥自媒体（账号名含`私信我咨询`）「1招找到人工客服，快速减轻处罚」. Review use: treat "解封话术/找人工客服" + 私信引流 as grey-service/diversion risk; do not recommend.
+- aweme `7575195160402876658` WXU「抖音号被盗并封禁怎么办：先找回账号、举证盗号事实再申请解封」. Review use: separate 盗号/账号安全 from content violations; require login/device/IP/找回 evidence.
+
+Traceable sources:
+
+- Douyin search sample, expanded keyword set (带货/抖店/直播/搬运/二创/影视/AI/摆拍/蹭热点/盗号), sample date 2026-06-23.
+- Douyin comment sample, video ids `7535027295058316604`, `7650122245897448883`, `7652310430903945599`, sample date 2026-06-23.
+
+## Xiaohongshu Discussion Samples About 抖音 (sample date 2026-06-23)
+
+Netizen discussion about 抖音 mined from Xiaohongshu (creator discussion, not rules).
+
+- note `68de5aa30000000007014afd` 阿黎岛「抖音永久禁言做完题降级到禁言30天」 ~💬347. Signal: 抖音 offers a `答题/考试` path to downgrade some禁言 penalties. Comments also expose 实名号买卖 grey market (`实名都被封了，急需一个有实名的抖音号`). Review use: mention the official答题降级 path; flag实名账号买卖/借用 as a hard violation.
+- note `683a7066000000000f031dd6` 嘻嘻「抖音的号终于被养回来了」 ~💬4289. The comment section is dominated by an identical copy-pasted复读 (`抖音你流量真少…再也不发了，卸载，开始搞小红书`) — a cross-platform migration-venting/玄学复读 pattern (see index "流量恢复玄学"). Review use: treat mass-identical comments as engagement-manipulation/复读 noise, not signal.
+
+Traceable sources:
+
+- Xiaohongshu discussion sample, keywords `抖音 限流/违规/封号/带货/搬运`, sample date 2026-06-23.
+- Xiaohongshu comment sample, note ids `68de5aa30000000007014afd`, `683a7066000000000f031dd6`, sample date 2026-06-23.

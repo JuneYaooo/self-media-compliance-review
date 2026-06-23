@@ -212,6 +212,76 @@ Appeal approach:
 - Submit screenshots showing contact removal, comment cleanup, and corrected CTA.
 - Do not replace removed contact with code words, cropped QR, or "看主页".
 
+## Curated Case Samples (sample date 2026-06-23)
+
+These notes and comments were collected from Xiaohongshu search and note comments. Counts and comments drift over time, so re-check before relying on them. Official governance accounts (`规则百科薯`, `薯管家`, `商业合规薯`, `健康薯`) are the most trustworthy in-platform source; all other entries are creator discussion samples that surface 隐形 rules as symptoms, not platform rules.
+
+### Official governance notes (官方/平台治理), grouped by theme
+
+The `*薯` accounts (`规则百科薯`, `薯管家`, `商业合规薯`, `健康薯`, `好生意薯`) are official governance/rule accounts; their posts are the most authoritative in-platform source and double as rule explainers. All sampled 2026-06-23 (publish dates not shown by search; verify in-app if exact date matters).
+
+- 虚假营销 / 商家营销:
+  - `规则百科薯` `691d8c03000000001e0088d7` 「【新规上线】虚假营销笔记违规类型解析」 ~💬2209 👍3142.
+  - `规则百科薯` `697834c3000000002202e244` 「评论审核规范（二）：商品/服务营销推广」 ~💬8240 👍3677.
+  - `薯管家` `69cb8e570000000023023b44` 「关于平台商家低差营销行为的治理公告」 ~💬107 👍506.
+  - `规则百科薯` `69cf9db5000000001f002467` 「「婚恋行业」虚假宣传规则解读」 ~💬66 👍260.
+- 交易导流 / 引流:
+  - `规则百科薯` `693bdcaf000000001e00ec5f` 「「交易导流」违规整改指南」 ~💬4408 👍6959.
+  - `规则百科薯` `690335890000000007023083` 「典型违规案例解读！交易导流的那些事儿」 ~💬138 👍716.
+  - `好生意薯` `68624f2a000000001203edaf` 「合规私信获客有秘诀」 ~💬34 👍151.
+- 原创 / 搬运:
+  - `薯管家` `684a91c40000000021019d8c` 「关于"笔记声明原创"功能上线公告」 ~💬3955 👍35293.
+  - `薯管家` `6809dc37000000001e00590b` 「非原创规则更新公告」 ~💬898 👍4895.
+  - `规则百科薯` `697335f6000000001a027fb0` 「如何设置一个有效的转载声明？」 ~💬1158 👍1198.
+  - `规则百科薯` `686744590000000013011839` 「流量陷阱曝光，复制粘贴效率高？大No特No」 ~💬434 👍818.
+- AI / 内容标识:
+  - `规则百科薯` `6a03edba0000000035033993` 「视频内容标识使用规范」 ~💬2822 👍4381.
+  - `规则百科薯` `6a1d7332000000003501d40a` 「用好AI创作，避开这些"隐形坑"」 ~💬2433 👍3738.
+  - `规则百科薯` `695df4c7000000000a03f48c` 「【新规速递】AI内容风险指南及建议」 ~💬1174 👍2987.
+  - `薯管家` `6a067e050000000035024b33` 「"清朗·整治AI应用乱象"专项公告」 ~💬84 👍306.
+- 健康 / 医疗 / 保健品:
+  - `健康薯` `6952248c000000001e013283` 「规则解读｜医生和素人账号能发哪些健康内容」 ~💬63 👍373.
+  - `商业合规薯` `6937e580000000001e037a2d` 「"虚假医疗功效"违禁词来了！（附违规案例解析）」 ~💬26 👍303.
+  - `商业合规薯` `69033a470000000005032a1b` 「如何正确识别保健品？避坑指南」 ~💬8 👍50.
+  - `商业合规薯` `697b3d470000000028022056` 「一说功效就违规？滋补膳食产品应该怎么宣传」 ~💬13 👍96.
+  - `规则百科薯` `6965c7c0000000000c0361aa` 「投广被拒？可能超出商品功效范围了！」 ~💬137 👍310.
+- 未成年:
+  - `薯管家` `69eb61610000000023004043` 「关于涉未成年不良内容阶段性处置结果公示」 ~💬58 👍222.
+  - `薯管家` `61ae50ee00000000010247bf` 「涉未成年人违规笔记评论处罚公示（第一期）」 ~💬486 👍2333.
+  - `薯管家` `68118d19000000002101b7c3` 「未成年人模式使用指南」 ~💬164 👍1482.
+  - `薯管家` `66dd10da000000000c01b8f6` 「小红书未成年人网络保护社会责任报告」 ~💬19 👍162.
+- 行业专项 / 其他:
+  - `薯管家` `6841117500000000120029f4` 「关于"留学移民"行业不规范营销的治理公告」 ~💬399 👍2558.
+  - `规则百科薯` `68f897f0000000000301009e` 「求职陷阱多？高风险招聘防骗指南」 ~💬197 👍427.
+  - `规则百科薯` `6882203e000000000b01d02a` 「笔记总是"被擦边"，这些细节你踩中了没？」 ~💬210 👍400.
+  - `规则百科薯` `69c4c72f00000000280086a6` 「内衣广告审核避雷指南」 ~💬60 👍207.
+  - `规则百科薯` `68d655b6000000001300b0dc` 「标题党退退退！不做点击大冤种」 ~💬66 👍267.
+
+### Hidden-rule signal: "不明示违规点" (from official-note comments)
+
+Across the high-traffic governance notes, the dominant comment theme is that creators cannot tell *what* they did wrong — strong evidence that much enforcement runs on unwritten rules:
+
+- On 交易导流 note `693bdcaf...`: `麻烦平台把违规点写清楚呀，老提示违规，具体哪里违规又不明说` (👍2459); `我哪里导流啊莫名其妙的` (👍814); `中奖提交地址也被认为外站导流`. Review use: when a creator reports a 导流 hit, audit caption + all images/OCR + comments + pinned comment + profile + private-message prompt for any contact/off-platform path, including disguised ones; "I didn't do anything" is common but the funnel is usually somewhere in the surface.
+- On 评论营销审核 note `697834c3...`: `能不能直接说出哪个有问题啊，很懵逼`; many禁言 notices for comment-level marketing. Review use: scrutinize comment-section marketing (求链接/店名/私我), not just the note body.
+- On 视频内容标识 note `6a03edba...`: comments are full of `小眼睛100左右徘徊`, `永久限流`, `账号变风险账号解除不了`. Reinforces the existing rule: low views alone ≠ confirmed violation; mark `待核验: 账号/笔记状态` unless there is a notice.
+- On AI note `6a1d7332...`: many `我以为我违规了` / `突然私聊吓我一跳` — the platform now pushes AI-labeling nudges proactively; treat realistic AI content as label-required.
+
+### Creator discussion samples (讨论样本，非平台规则)
+
+- 限流/新规: `6a15c9e30000000206039ca1` 旧九说财经「小红书新规则！踩这8条雷区就凉」~💬1026 👍3363; `6a14081c000000003502adf6` 珍珠说流量「你已经被限暗流了」~💬988 👍402; `69fc150e000000003701f437` 杰克爱运营「2026小红书5月新规⚠️小心被封」~💬198 👍654.
+- 封号/解封: `67fb1424000000001d01f44a` 勺勺勺大王「时隔半年！我永久封禁的号回来啦！有话术版」~💬153 👍1514; `6a266a1b00000000080026d1` 多账号运营飞雨「账号被封申诉成功！这几招真的有效」~💬147 👍486; `6a383449000000000f029dbf` 歪「永久封禁一年解封详细教程」~💬20 👍142. Use only as symptom/话术 samples; do not copy appeal text verbatim (the index warns against copied appeals).
+- 虚假营销/伪素人: `66721879000000000600553e` 嘉妹在成长「账号下存在不真诚营销推广」~💬128 👍103.
+- 联系方式/引流: `69563826000000001e0240f7` 笙儿「小红书要怎么留联系方式才算不违规呢」~💬505 👍1492. Treat any disguised-contact workaround as diversion risk.
+- 搬运/原创: `69c60517000000002301e18a` 芳菲宛「新人起号千万不能做的事 大忌」~💬1417 👍2205; `6745d2b90000000007036633` 允z鱼「有标明转载来源，为什么还是违规？」~💬37 👍99 (attribution alone does not cure unauthorized use); `69517a830000000022009b45` 安久拉「30万浏览笔记被抄袭搬运后续」~💬6 👍33.
+- 医疗/功效: `672d65e9000000001901aee5` 麋鹿不迷路「医疗内容被永久禁言」~💬23 👍85; `694c6b9b000000001b02508d` 药研智能社「只要作品中有药品名字就会被拉黑」~💬6 👍21; `689d5890000000001c008454` 小小小疯子「为什么作品总被提示涉及医疗」.
+- 团购/本地: `69fc150e...`(above) and `6a377d5d000000002200bbb1` 叮叮「小红书6月新规，不要违规了」~💬83 👍210; treat团购红黑榜/达人互动群 notes as context for本地生活导流 risk.
+- 高危词库: `66f28f45000000002a030eca` 福星高照肉肉酱「小红书高危词库自存」👍643 — creator-compiled word list; context-only, not an official banned-word list.
+
+Evidence label examples for a review:
+
+- `案例库 官方/治理 2026-06-23 小红书 交易导流整改指南 note 693bdcaf000000001e00ec5f`
+- `案例库 小红书讨论样本 2026-06-23 小红书 原创声明争议 note 684a91c40000000021019d8c comment`
+
 ## Community Covenant 2.0
 
 Reported signal: Xiaohongshu updated Community Covenant 2.0 around 2026-01, emphasizing 真诚分享, 友好互动, and 有序经营. Public reporting described focus areas including fake personas, cyberbullying, harm to minors, false marketing, malicious competition, and manufactured opposition.

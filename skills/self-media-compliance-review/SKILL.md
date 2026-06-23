@@ -79,6 +79,7 @@ Do not overload this `SKILL.md` with platform rule catalogs; keep detailed platf
    - When using recent examples, separate `官方/监管`, `媒体转述`, and `小红书讨论样本`; do not treat creator comments as binding rules.
    - Prefer the most specific matching category. If multiple categories apply, list all but mark the primary risk.
    - When the platform rule depends on account history or qualifications that are not available, mark `待核验`.
+   - Beyond official rules, platforms have many unwritten/隐形 rules. Treat creator-posted experience and comment-section discussion in the case files as a valuable supplement that surfaces these hidden enforcement patterns — but as symptoms and disputed edge cases, not as binding rules.
 
 5. **Classify severity**
    - `Blocker`: clear illegal/high-risk violation, severe platform red line, likely takedown, user safety/property risk, unqualified regulated advice/marketing, porn/gambling/fraud, unmasked gore/death/sexual assault/minor harm, obvious unauthorized搬运, risky contact or off-platform diversion.

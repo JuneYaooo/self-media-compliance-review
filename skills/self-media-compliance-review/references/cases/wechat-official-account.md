@@ -216,3 +216,22 @@ Traceable sources:
 
 - Xiaohongshu search sample, keyword `微信公众号 封号 申诉 怎么办`, sample date 2026-06-20.
 - Xiaohongshu comment sample, note id `690c5e1000000000040147ea`, sample date 2026-06-20.
+
+## Xiaohongshu Discussion Samples About 公众号 (sample date 2026-06-23)
+
+Netizen discussion posts (and comments) about 公众号 violations/limiting, mined from Xiaohongshu. Creator discussion samples, not platform rules. Cite as `案例库 小红书讨论样本 2026-06-23 微信公众号 <topic> note <id>`.
+
+### AI 洗稿 / 低质量 / 低创作度 被限流或封号
+
+- note `69d785cf000000002102c4da` 大厂潮汛「夫妻号称AI写公众号年赚200万，然后号被封了」 ~💬500. Comments: `AI全量代写平台早就盯上了，纯堆量没活人感被封是迟早的事`; advice to use AI as 工具不当代笔. Review use: full-AI/堆量 公众号 is a封号 risk; require human editorial value.
+- note `68497243000000000c0388a0` 野百合「公众号被限流，五步帮你养回来」 ~💬484. Comment evidence of 隐形 judgments: `被判低创作度，阅读量直接下滑`; `用助推券后显示文章违规，说AI写的质量很低就限流`; `开通流量主之后阅读个位数`; `检测说存在不良信息——兼职赚米（其实只写了自己负债经历）`. Review use: `低创作度`/`低质量AI`/`不良信息(兼职赚钱暗示)` are common silent triggers; audit原创度, AI痕迹, and any 赚钱/兼职 wording.
+
+### 限流潜规则 / 改规则后无通知无检测
+
+- note `66df49b5000000000c01b469` 孙麦哲「公众号（限流）潜规则」 ~💬173 — creator-compiled "潜规则" list; context/discussion only, not official.
+- note `69cef3cd000000001d01d27e` 不说rwd「公众号改规则后流量持续低迷、推荐基本为0，没收到违规通知，app也没有账号检测功能」 ~💬182. Comments: `也断流了，一个月了还没放出来`; `收益时高时低`. Review use: unlike 小红书/抖音, 公众号 often gives no notice and no self-check tool — strongest "不明示违规点" case; mark `待核验: 账号/文章状态` and audit原创/AI/营销 manually.
+
+Traceable sources:
+
+- Xiaohongshu discussion sample, keywords `公众号 文章违规/限流/封号/留言/原创洗稿`, sample date 2026-06-23.
+- Xiaohongshu comment sample, note ids `69d785cf000000002102c4da`, `68497243000000000c0388a0`, `69cef3cd000000001d01d27e`, sample date 2026-06-23.
