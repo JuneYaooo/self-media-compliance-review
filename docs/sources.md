@@ -71,6 +71,15 @@ Notes: the community convention is JavaScript-rendered, but static bundle text e
 
 Notes: Community Covenant 2.0 is used as directional context for 真诚分享, 友好互动, 有序经营. Detailed checks lean on the user agreement and brand-account operation rules.
 
+## Optional Live Evidence
+
+- TikHub Xiaohongshu search/comment tools, used only when `TIKHUB_API_KEY` is configured:
+  - `xiaohongshu_web_v3_fetch_search_notes`
+  - `xiaohongshu_web_v2_fetch_note_comments`
+  - `xiaohongshu_web_v2_fetch_sub_comments`
+
+Live Xiaohongshu creator notes and comments are discussion samples. 评论区讨论不是平台规则; use them only as symptom and remediation clues.
+
 ## Cross-Platform Regulators
 
 - 中国网信网清朗专题 index: https://www.cac.gov.cn/wxzw/qinglang/A093711index_1.htm

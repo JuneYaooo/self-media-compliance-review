@@ -1,0 +1,49 @@
+{
+  "code": 200,
+  "data": {
+    "data": {
+      "items": [
+        {
+          "id": "693bdcaf000000001e00ec5f",
+          "xsecToken": "token-official",
+          "noteCard": {
+            "displayTitle": "「交易导流」违规整改指南",
+            "user": {
+              "nickName": "规则百科薯"
+            },
+            "interactInfo": {
+              "commentCount": "4408",
+              "likedCount": "6959"
+            },
+            "cornerTagInfo": [
+              {
+                "type": "publish_time",
+                "text": "2025-12-15"
+              }
+            ]
+          }
+        },
+        {
+          "id": "69563826000000001e0240f7",
+          "xsecToken": "token-creator",
+          "noteCard": {
+            "displayTitle": "小红书要怎么留联系方式才算不违规呢",
+            "user": {
+              "nickName": "笙儿"
+            },
+            "interactInfo": {
+              "commentCount": "505",
+              "likedCount": "1492"
+            },
+            "cornerTagInfo": [
+              {
+                "type": "publish_time",
+                "text": "2026-01-03"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

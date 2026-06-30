@@ -1,0 +1,71 @@
+[
+  {
+    "name": "xiaohongshu_web_v3_fetch_search_notes",
+    "description": "搜索笔记/Search notes",
+    "inputSchema": {
+      "type": "object",
+      "required": ["keyword"],
+      "properties": {
+        "keyword": {"type": "string"},
+        "page": {"type": "integer", "default": 1},
+        "sort": {"type": "string", "default": "general"},
+        "note_type": {"type": "integer", "default": 0}
+      }
+    }
+  },
+  {
+    "name": "xiaohongshu_web_v2_fetch_note_comments",
+    "description": "获取笔记评论/Fetch note comments",
+    "inputSchema": {
+      "type": "object",
+      "required": ["note_id"],
+      "properties": {
+        "note_id": {"type": "string"},
+        "cursor": {"type": "string", "default": ""}
+      }
+    }
+  },
+  {
+    "name": "xiaohongshu_web_v2_fetch_sub_comments",
+    "description": "获取子评论/Fetch sub comments",
+    "inputSchema": {
+      "type": "object",
+      "required": ["note_id", "comment_id"],
+      "properties": {
+        "note_id": {"type": "string"},
+        "comment_id": {"type": "string"},
+        "cursor": {"type": "string", "default": ""}
+      }
+    }
+  },
+  {
+    "name": "xiaohongshu_app_v2_search_notes",
+    "description": "搜索笔记/Search notes",
+    "inputSchema": {
+      "type": "object",
+      "required": ["keyword"],
+      "properties": {
+        "keyword": {"type": "string"},
+        "page": {"type": "integer", "default": 1},
+        "sort_type": {"type": "string", "default": "general"},
+        "note_type": {"type": "string", "default": "不限"},
+        "time_filter": {"type": "string", "default": "不限"}
+      }
+    }
+  },
+  {
+    "name": "xiaohongshu_app_v2_get_note_comments",
+    "description": "获取笔记评论列表/Get note comments",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "note_id": {"type": "string"},
+        "share_text": {"type": "string", "default": ""},
+        "cursor": {"type": "string", "default": ""},
+        "index": {"type": "integer", "default": 0},
+        "pageArea": {"type": "string", "default": "UNFOLDED"},
+        "sort_strategy": {"type": "string", "default": "default"}
+      }
+    }
+  }
+]

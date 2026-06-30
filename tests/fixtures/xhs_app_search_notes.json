@@ -1,0 +1,31 @@
+{
+  "code": 200,
+  "data": {
+    "code": 0,
+    "success": true,
+    "data": {
+      "items": [
+        {
+          "model_type": "note",
+          "note": {
+            "id": "63e3a1b6000000001d0121ff",
+            "xsec_token": "app-token",
+            "title": "笔记玩法 | 笔记被限流？注意交易导流行为",
+            "desc": "最近很多小红薯问为什么笔记阅读量下降",
+            "comments_count": 800,
+            "liked_count": 2888,
+            "user": {
+              "nickname": "电商学习薯"
+            },
+            "corner_tag_info": [
+              {
+                "type": "publish_time",
+                "text": "2023-02-11"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

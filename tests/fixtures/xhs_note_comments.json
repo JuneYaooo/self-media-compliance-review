@@ -1,0 +1,36 @@
+{
+  "code": 200,
+  "data": {
+    "comments": [
+      {
+        "id": "c1",
+        "content": "麻烦平台把违规点写清楚呀，具体哪里违规又不明说",
+        "like_count": 2459,
+        "time": 1765777293,
+        "user": {
+          "nickname": "小北ybx"
+        },
+        "sub_comments": [
+          {
+            "id": "c1-1",
+            "content": "加一，莫名其妙被警告",
+            "like_count": 969,
+            "time": 1765777867,
+            "user": {
+              "nickname": "Helen"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "content": "你的图片里有联系方式呀",
+        "like_count": 1,
+        "time": 1766133739,
+        "user": {
+          "nickname": "规则百科薯"
+        }
+      }
+    ]
+  }
+}

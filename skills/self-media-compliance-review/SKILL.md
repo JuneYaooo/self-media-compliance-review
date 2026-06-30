@@ -43,6 +43,20 @@ When using recent cases, load the index first, then the matching platform case f
 - 快手: `references/cases/kuaishou.md`.
 - B站: `references/cases/bilibili.md`.
 
+## Optional Dynamic Xiaohongshu Evidence
+
+When the user has already encountered a violation, limiting, takedown, failed appeal, low views, non-indexing, or unclear platform notice, dynamic Xiaohongshu search can be used as an optional evidence supplement.
+
+Use `tools/xhs_dynamic_evidence.py diagnose` only when:
+
+- the user asks to find similar cases or current discussion; or
+- the review depends on recent hidden-rule symptoms; and
+- `TIKHUB_API_KEY` is configured.
+
+If the key is missing or the tool fails, do not block the review. Continue with official rules, static case files, and user-provided evidence. State: "动态小红书检索未启用：当前环境未配置 `TIKHUB_API_KEY` 或工具不可用。"
+
+Dynamic evidence must be reported under `动态小红书相似案例`. It is a 可选增强 and must be separated from official rules. Ordinary creator notes and comments are discussion samples, not platform rules.
+
 For new platforms, add one reference file under `references/<platform>.md` with:
 
 - Platform scope and source date.
@@ -77,6 +91,7 @@ Do not overload this `SKILL.md` with platform rule catalogs; keep detailed platf
 4. **Apply platform references**
    - Cite platform category ids or article names where available.
    - When using recent examples, separate `官方/监管`, `媒体转述`, and `小红书讨论样本`; do not treat creator comments as binding rules.
+   - When optional dynamic Xiaohongshu evidence is used, put it in a separate `动态小红书相似案例` section with search terms, sample date, note ids, and the evidence limitation.
    - Prefer the most specific matching category. If multiple categories apply, list all but mark the primary risk.
    - When the platform rule depends on account history or qualifications that are not available, mark `待核验`.
    - Beyond official rules, platforms have many unwritten/隐形 rules. Treat creator-posted experience and comment-section discussion in the case files as a valuable supplement that surfaces these hidden enforcement patterns — but as symptoms and disputed edge cases, not as binding rules.

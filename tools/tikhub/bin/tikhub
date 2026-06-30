@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+"""Small debugging CLI for the vendored TikHub client."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent / "lib"))
+
+from tikhub_client import TikhubClient, TikhubError, health, platforms  # noqa: E402
+
+REFERENCES_DIR = HERE.parent / "references"
+
+
+def print_json(value) -> None:
+    print(json.dumps(value, ensure_ascii=False, indent=2))
+
+
+def die(message: str, code: int = 1) -> None:
+    print(json.dumps({"error": message}, ensure_ascii=False), file=sys.stderr)
+    raise SystemExit(code)
+
+
+def load_tools(platform: str) -> list[dict]:
+    path = REFERENCES_DIR / f"tools-{platform}.json"
+    if not path.is_file():
+        die(f"no cached tool catalog for {platform!r}")
+    return json.loads(path.read_text())
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="tikhub")
+    parser.add_argument("--health", action="store_true")
+    parser.add_argument("--platforms", action="store_true")
+    parser.add_argument("--json", help="JSON object arguments for tool call")
+    parser.add_argument("positional", nargs="*")
+    args = parser.parse_args(argv)
+
+    if args.health:
+        print_json(health())
+        return 0
+    if args.platforms:
+        print_json(platforms())
+        return 0
+
+    if not args.positional:
+        parser.print_help(sys.stderr)
+        return 1
+
+    head = args.positional[0]
+    if head == "list":
+        if len(args.positional) < 2:
+            die("usage: tikhub list <platform> [substring]")
+        platform = args.positional[1]
+        needle = args.positional[2].lower() if len(args.positional) > 2 else ""
+        tools = [tool for tool in load_tools(platform) if needle in tool["name"].lower()]
+        for tool in tools:
+            print(f"{tool['name']}\t{(tool.get('description') or '').splitlines()[0]}")
+        return 0
+
+    if head == "describe":
+        if len(args.positional) != 3:
+            die("usage: tikhub describe <platform> <tool_name>")
+        platform, tool_name = args.positional[1], args.positional[2]
+        for tool in load_tools(platform):
+            if tool["name"] == tool_name:
+                print_json(tool)
+                return 0
+        die(f"tool {tool_name!r} not found")
+
+    if len(args.positional) < 2:
+        die("usage: tikhub <platform> <tool_name> --json '{...}'")
+    platform, tool_name = args.positional[0], args.positional[1]
+    try:
+        arguments = json.loads(args.json or "{}")
+        if not isinstance(arguments, dict):
+            die("--json must be an object")
+        print_json(TikhubClient(platform).call(tool_name, arguments))
+    except (json.JSONDecodeError, TikhubError) as exc:
+        die(str(exc), code=2)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
