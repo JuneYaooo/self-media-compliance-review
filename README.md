@@ -12,7 +12,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/JuneYaooo/self-media-compliance-review?style=flat)](https://github.com/JuneYaooo/self-media-compliance-review/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-black.svg)](./skills/self-media-compliance-review/SKILL.md)
+[![Codex Skill](https://img.shields.io/badge/Codex-Skill-black.svg)](./SKILL.md)
 [![Platforms](https://img.shields.io/badge/platforms-6%20platforms-orange.svg)](#-已覆盖平台)
 
 </div>
@@ -46,14 +46,14 @@
 
 | 平台 | 规则文件 | 案例/申诉场景 |
 | --- | --- | --- |
-| 微信视频号 / WeChat Channels | [`wechat-channels.md`](./skills/self-media-compliance-review/references/wechat-channels.md) | [`cases/wechat-channels.md`](./skills/self-media-compliance-review/references/cases/wechat-channels.md) |
-| 微信公众号 / WeChat Official Accounts | [`wechat-official-account.md`](./skills/self-media-compliance-review/references/wechat-official-account.md) | [`cases/wechat-official-account.md`](./skills/self-media-compliance-review/references/cases/wechat-official-account.md) |
-| 抖音 / Douyin | [`douyin.md`](./skills/self-media-compliance-review/references/douyin.md) | [`cases/douyin.md`](./skills/self-media-compliance-review/references/cases/douyin.md) |
-| 快手 / Kuaishou | [`kuaishou.md`](./skills/self-media-compliance-review/references/kuaishou.md) | [`cases/kuaishou.md`](./skills/self-media-compliance-review/references/cases/kuaishou.md) |
-| B站 / Bilibili | [`bilibili.md`](./skills/self-media-compliance-review/references/bilibili.md) | [`cases/bilibili.md`](./skills/self-media-compliance-review/references/cases/bilibili.md) |
-| 小红书 / Xiaohongshu | [`xiaohongshu.md`](./skills/self-media-compliance-review/references/xiaohongshu.md) | [`cases/xiaohongshu.md`](./skills/self-media-compliance-review/references/cases/xiaohongshu.md) |
+| 微信视频号 / WeChat Channels | [`wechat-channels.md`](./references/wechat-channels.md) | [`cases/wechat-channels.md`](./references/cases/wechat-channels.md) |
+| 微信公众号 / WeChat Official Accounts | [`wechat-official-account.md`](./references/wechat-official-account.md) | [`cases/wechat-official-account.md`](./references/cases/wechat-official-account.md) |
+| 抖音 / Douyin | [`douyin.md`](./references/douyin.md) | [`cases/douyin.md`](./references/cases/douyin.md) |
+| 快手 / Kuaishou | [`kuaishou.md`](./references/kuaishou.md) | [`cases/kuaishou.md`](./references/cases/kuaishou.md) |
+| B站 / Bilibili | [`bilibili.md`](./references/bilibili.md) | [`cases/bilibili.md`](./references/cases/bilibili.md) |
+| 小红书 / Xiaohongshu | [`xiaohongshu.md`](./references/xiaohongshu.md) | [`cases/xiaohongshu.md`](./references/cases/xiaohongshu.md) |
 
-规则来源汇总见：[`docs/sources.md`](./docs/sources.md)。跨平台案例索引见：[`recent-cases-2025-2026.md`](./skills/self-media-compliance-review/references/recent-cases-2025-2026.md)。
+规则来源汇总见：[`docs/sources.md`](./docs/sources.md)。跨平台案例索引见：[`recent-cases-2025-2026.md`](./references/recent-cases-2025-2026.md)。
 
 ## 安装
 

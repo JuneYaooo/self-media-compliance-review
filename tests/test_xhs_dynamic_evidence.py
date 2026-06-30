@@ -263,7 +263,7 @@ def test_run_diagnose_keeps_notes_and_warns_when_comments_fail():
 
 
 def test_docs_describe_dynamic_search_as_optional_and_xhs_only():
-    skill = Path("skills/self-media-compliance-review/SKILL.md").read_text()
+    skill = Path("SKILL.md").read_text()
     readme = Path("README.md").read_text()
     sources = Path("docs/sources.md").read_text()
 
