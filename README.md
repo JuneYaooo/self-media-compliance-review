@@ -59,10 +59,8 @@
 
 把下面这段话发给你的 AI 助手即可：
 
-```text
-帮我安装 self-media-compliance-review：
-https://github.com/JuneYaooo/self-media-compliance-review
-```
+> 帮我安装 self-media-compliance-review：
+> https://github.com/JuneYaooo/self-media-compliance-review
 
 安装方式取决于你正在使用的 agent。安装完成后，让它告诉你如何调用，以及是否需要重启或刷新当前 session。
 
@@ -70,47 +68,31 @@ https://github.com/JuneYaooo/self-media-compliance-review
 
 直接用自然语言调用：
 
-```text
-使用 self-media-compliance-review，审核这个视频的标题、封面、字幕、口播、商品链接和发布文案，目标平台是抖音和小红书。
-```
+> 使用 self-media-compliance-review，审核这个视频的标题、封面、字幕、口播、商品链接和发布文案，目标平台是抖音和小红书。
 
 或在视频交付前：
 
-```text
-交付前跑一遍 self-media-compliance-review，平台是视频号、B站。
-```
+> 交付前跑一遍 self-media-compliance-review，平台是视频号、B站。
 
 排查账号状态或申诉问题：
 
-```text
-使用 self-media-compliance-review，帮我排查小红书笔记小眼睛为 0 的可能原因，并按案例库给出申诉前要准备的证据。
-```
+> 使用 self-media-compliance-review，帮我排查小红书笔记小眼睛为 0 的可能原因，并按案例库给出申诉前要准备的证据。
 
 参考既往案例和创作者讨论：
 
-```text
-使用 self-media-compliance-review，结合案例库里抖音"带货话术被判违规"的既往经验和评论讨论，帮我看看这条口播会不会踩隐形规则。
-```
+> 使用 self-media-compliance-review，结合案例库里抖音"带货话术被判违规"的既往经验和评论讨论，帮我看看这条口播会不会踩隐形规则。
 
 ## 可选：动态小红书相似案例检索
 
-这个 skill 可以随仓库使用 `tools/xhs_dynamic_evidence.py` 通过 TikHub 检索小红书帖子和评论。它只通过小红书找动态样本；其他平台的违规经验也只作为小红书讨论样本检索。
+这个 skill 随仓库发布了公开工具脚本 [tools/xhs_dynamic_evidence.py](./tools/xhs_dynamic_evidence.py)，可以在需要时通过 TikHub 检索小红书帖子和评论。它只通过小红书找动态样本；其他平台的违规经验也只作为小红书讨论样本检索。
 
-配置：
+如果需要实时查询，可以考虑配置 TikHub。需要准备并注入 `TIKHUB_API_KEY`，相关 SDK 和接入说明见 [TikHub-API-Python-SDK](https://github.com/TikHub/TikHub-API-Python-SDK)。
 
-```bash
-export TIKHUB_API_KEY=...
-```
+注意：动态检索会调用 TikHub 接口，可能产生 TikHub API 调用费用，也可能消耗账号额度。建议只在用户真的遇到违规、限流、申诉失败、通知原因不清，或需要当前相似案例和评论讨论时启用。
 
-示例：
+可以直接用自然语言让 agent 判断是否启用：
 
-```bash
-python3 tools/xhs_dynamic_evidence.py diagnose \
-  --symptom "小红书笔记被判导流，申诉失败" \
-  --platform 小红书 \
-  --max-notes 3 \
-  --max-comments 5
-```
+> 使用 self-media-compliance-review，帮我排查这条小红书笔记被判导流的原因。如果当前环境已经配置 TikHub key，可以实时查一下小红书相似帖子和评论；如果没有配置，就只用静态规则和案例库。
 
 没有配置 `TIKHUB_API_KEY` 时，审核仍会按静态规则和案例库继续。动态小红书搜索只是可选增强；普通创作者帖子和评论区讨论不是平台规则，只能作为症状和排查线索。
 

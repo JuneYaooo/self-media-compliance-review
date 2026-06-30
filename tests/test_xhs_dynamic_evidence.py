@@ -271,7 +271,12 @@ def test_docs_describe_dynamic_search_as_optional_and_xhs_only():
     assert "可选增强" in skill
     assert "未配置 `TIKHUB_API_KEY`" in skill
     assert "只通过小红书" in readme
-    assert "tools/xhs_dynamic_evidence.py diagnose" in readme
+    assert "https://github.com/TikHub/TikHub-API-Python-SDK" in readme
+    assert "`TIKHUB_API_KEY`" in readme
+    assert "可能产生 TikHub API 调用费用" in readme
+    assert "如果需要实时查询" in readme
+    assert "python3 tools/xhs_dynamic_evidence.py" not in readme
+    assert "```bash" not in readme
     assert "TikHub" in sources
     assert "评论区讨论不是平台规则" in sources
 
